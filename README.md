@@ -46,7 +46,7 @@ Rarity 12
 290 Base Raw
 
 why I picked it:
-- The absolute king of LLBG, this gun has the largest Spread 3 magazine in game (5) and can fast bounce them.
+- The absolute king of LLBG, this gun has the largest Spread 3 magazine in the game.
 
 ![image](https://github.com/LucianoCirino/MHWI_LLBG/assets/112517630/586ef26a-0057-47cd-9bac-7503205301e7)
 **FATALIS DEPTHS**
@@ -54,4 +54,9 @@ Rarity 12
 285 Base Raw
 
 why I picked it:
-- 
+- The second strongest Spread 3 LLBG with a bit better status ammo options.
+- Potentially the best Pierce gun with its access to Rapid-Fire Pierce 2.
+
+![image](https://github.com/LucianoCirino/MHWI_LLBG/assets/112517630/53207281-b8de-4f9e-a18a-93b5cbcf7522)
+
+**SAFI'S BOLTSHOT**
