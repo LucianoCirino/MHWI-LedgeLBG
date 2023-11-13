@@ -16,8 +16,8 @@ Rarity 12
 310 Base Raw
 
 why I picked it:
-- Strongest Sticky 3 gun in the game.
-- Can also fast bounce from Spread 3s & Normal 3s.
+- The strongest Sticky 3 gun in the game is also the best Sticky 3 LLBG gun.
+- Can also fast bounce Spread 3s & Normal 3s.
 
 
 ![image](https://github.com/LucianoCirino/MHWI_LLBG/assets/112517630/cd2c631e-6b84-447c-bbb8-04948fda7797)
@@ -38,3 +38,20 @@ why I picked it:
 - Has the largest Pierce 3 magazine in game (5), unfortunetely at medium speed ledge bounces.
 - Has Sticky 3s which always fast bounce.
 - Can fire Paralysis 2s & Sleep 2s but they cannot be bounced with.
+
+
+![image](https://github.com/LucianoCirino/MHWI_LLBG/assets/112517630/7bb119f6-8984-4890-a4ec-ab44c0cbff53)
+**SAFI'S DRAKSHOT**
+Rarity 12
+290 Base Raw
+
+why I picked it:
+- The absolute king of LLBG, this gun has the largest Spread 3 magazine in game (5) and can fast bounce them.
+
+![image](https://github.com/LucianoCirino/MHWI_LLBG/assets/112517630/586ef26a-0057-47cd-9bac-7503205301e7)
+**FATALIS DEPTHS**
+Rarity 12
+285 Base Raw
+
+why I picked it:
+- 
