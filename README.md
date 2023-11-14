@@ -4,7 +4,7 @@
 
 ### BAZELCORE
 
-- A good Pierce 3 option with many CC Ammo types to bounce with.
+- An effective Pierce option, offering Pierce 3 at fast bounces with a huge variety of CC Ammo types to also bounce from.
 
 <table>
 <tr style="vertical-align:top;">
@@ -89,15 +89,11 @@
 </tr>
 </table>
 
-**Pros:**
-- The second strongest Spread 3 LLBG with better status ammo options.
-- Potentially the best Pierce gun with access to Rapid-Fire Pierce 2.
-
 ---
 
 ## ROYAL SUREFIRE SHOT
 
-- Boasts the largest Normal 3 magazine, offering extensive bounce opportunities.
+- This gun may fall short on brute strength, but it stands out with the largest Normal 3 magazine and it's unique ability to ledge bounce with the most ammo types in game.
 
 <table>
 <tr style="vertical-align:top;">
@@ -117,7 +113,21 @@
 <tr style="vertical-align:top;">
 <td colspan="2">
 
-<!-- Ammo Bounce Maps Placeholder -->
+| Ammo Type          | Magazine Size | Bounce Speed |
+|--------------------|:-------------:|:------------:|
+| Normal Ammo 3      |       3       |     Fast     |
+| Pierce Ammo 3      |       3       |     Fast     |
+| Sticky Ammo 1      |       3       |     Fast     |
+| Sticky Ammo 2      |       3       |     Fast     |
+| Sticky Ammo 3      |       3       |     Fast     |
+| Paralysis Ammo 2   |       4       |     Fast     |
+| Exhaust Ammo 1     |       6       |     Fast     |
+| Exhaust Ammo 2     |       5       |     Fast     |
+| Dragon Ammo        |       2       |     Fast     |
+| Poison Ammo 2      |       5       |    Medium    |
+| Flaming Ammo       |       5       |    Medium    |
+| Thunder Ammo       |       5       |    Medium    |
+| Tranq Ammo         |       3       |    Medium    |
 
 </td>
 </tr>
@@ -127,7 +137,7 @@
 
 ## SAFI'S AQUASHOT
 
-- Top choice for Pierce 3 with a large magazine and Sticky 3 capabilities.
+- Top choice for Pierce 3 with a large magazine and Sticky 3 capabilities. 
 
 <table>
 <tr style="vertical-align:top;">
@@ -147,7 +157,21 @@
 <tr style="vertical-align:top;">
 <td colspan="2">
 
-<!-- Ammo Bounce Maps Placeholder -->
+| Ammo Type          | Magazine Size | Bounce Speed |
+|--------------------|:-------------:|:------------:|
+| Normal Ammo 3      |       3       |     Fast     |
+| Pierce Ammo 3      |       3       |     Fast     |
+| Sticky Ammo 1      |       3       |     Fast     |
+| Sticky Ammo 2      |       3       |     Fast     |
+| Sticky Ammo 3      |       3       |     Fast     |
+| Paralysis Ammo 2   |       4       |     Fast     |
+| Exhaust Ammo 1     |       6       |     Fast     |
+| Exhaust Ammo 2     |       5       |     Fast     |
+| Dragon Ammo        |       2       |     Fast     |
+| Poison Ammo 2      |       5       |    Medium    |
+| Flaming Ammo       |       5       |    Medium    |
+| Thunder Ammo       |       5       |    Medium    |
+| Tranq Ammo         |       3       |    Medium    |
 
 </td>
 </tr>
@@ -157,7 +181,7 @@
 
 ## SAFI'S DRAKSHOT
 
-- The absolute king of LLBG, offering the largest Spread 3 magazine. 👑
+- The absolute king of LLBG. With an unmatched Spread 3 magazine of 5, this gun is without a doubt in a class of its own. 
 
 <table>
 <tr style="vertical-align:top;">
@@ -177,7 +201,10 @@
 <tr style="vertical-align:top;">
 <td colspan="2">
 
-<!-- Ammo Bounce Maps Placeholder -->
+| Ammo Type          | Magazine Size | Bounce Speed |
+|--------------------|:-------------:|:------------:|
+| Spread Ammo 3      |       5       |     Fast     |
+| Tranq Ammo         |       3       |    Medium    |
 
 </td>
 </tr>
@@ -187,7 +214,7 @@
 
 ## TEN THOUSAND VOLTS
 
-- The strongest Sticky 3 LLBG gun, with versatile Spread 3 and Normal 3 options.
+- At the pinnacle of base raw damage, this gun also holds the title for the most devastating Normal 3 and Sticky 3 ledge bowgun in game.  
 
 <table>
 <tr style="vertical-align:top;">
@@ -198,16 +225,30 @@
 </td>
 <td>
 
-| Rarity | Base Raw |          Primary Ammo            |
-|:------:|:--------:|:--------------------------------:|
-|   12   |   310    |  Spread 3 / Normal 3 / Sticky 3  |
+| Rarity | Base Raw |      Primary Ammo         |
+|:------:|:--------:|:-------------------------:|
+|   12   |   310    |    Normal 3 / Sticky 3    |
 
 </td>
 </tr>
 <tr style="vertical-align:top;">
 <td colspan="2">
 
-<!-- Ammo Bounce Maps Placeholder -->
+| Ammo Type          | Magazine Size | Bounce Speed |
+|--------------------|:-------------:|:------------:|
+| Normal Ammo 3      |       3       |     Fast     |
+| Pierce Ammo 3      |       3       |     Fast     |
+| Sticky Ammo 1      |       3       |     Fast     |
+| Sticky Ammo 2      |       3       |     Fast     |
+| Sticky Ammo 3      |       3       |     Fast     |
+| Paralysis Ammo 2   |       4       |     Fast     |
+| Exhaust Ammo 1     |       6       |     Fast     |
+| Exhaust Ammo 2     |       5       |     Fast     |
+| Dragon Ammo        |       2       |     Fast     |
+| Poison Ammo 2      |       5       |    Medium    |
+| Flaming Ammo       |       5       |    Medium    |
+| Thunder Ammo       |       5       |    Medium    |
+| Tranq Ammo         |       3       |    Medium    |
 
 </td>
 </tr>
