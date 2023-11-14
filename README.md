@@ -49,7 +49,7 @@
 
 ## FATALIS DEPTHS
 
-- A formidable Spread 3 option with a unique Rapid-Fire Pierce 2 capability.
+- A formidable Spread 3 option with unique Rapid-Fire Pierce 2 capabilities.
 
 <table>
 <tr style="vertical-align:top;">
@@ -137,7 +137,7 @@
 
 ## SAFI'S AQUASHOT
 
-- Top choice for Pierce 3 with a large magazine and Sticky 3 capabilities. 
+- Possessing the largest Pierce 3 magazine of 5, when even factoring in its medium bounce speed , its stands as the likely king of Pierce LLBG. 
 
 <table>
 <tr style="vertical-align:top;">
