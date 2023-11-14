@@ -154,7 +154,6 @@
 | Sticky Ammo 3      |       2       |     Fast     |
 | Exhaust Ammo 1     |       6       |     Fast     |
 | Exhaust Ammo 2     |       5       |     Fast     |
-| Dragon Ammo        |       2       |     Fast     |
 | Poison Ammo 2      |       5       |    Medium    |
 | Paralysis Ammo 1   |       6       |    Medium    |
 | Sleep Ammo 2       |       5       |    Medium    |
@@ -170,7 +169,7 @@
 
 ## SAFI'S AQUASHOT
 
-- Possessing the largest Pierce 3 magazine of 5; Even when factoring in its medium bounce speed, it stands as the likely king of Pierce ledge LBG. 
+- Possessing the largest Pierce 3 magazine (5); Even when factoring in its medium bounce speed, it stands as the likely king of Pierce ledge LBG. 
 
 <table>
 <tr style="vertical-align:top;">
@@ -183,7 +182,9 @@
 
 | Rarity | Base Raw | Primary Ammo |
 |:------:|:--------:|:------------:|
-|   12   |   290    |   Pierce 3   |
+|   12   |   290*   |   Pierce 3   |
+
+*Atk V (x4) + Pierce Capacity III
 
 </td>
 </tr>
@@ -192,18 +193,10 @@
 
 | Ammo Type          | Magazine Size | Bounce Speed |
 |--------------------|:-------------:|:------------:|
-| Normal Ammo 3      |       3       |     Fast     |
-| Pierce Ammo 3      |       3       |     Fast     |
-| Sticky Ammo 1      |       3       |     Fast     |
-| Sticky Ammo 2      |       3       |     Fast     |
-| Sticky Ammo 3      |       3       |     Fast     |
-| Paralysis Ammo 2   |       4       |     Fast     |
-| Exhaust Ammo 1     |       6       |     Fast     |
-| Exhaust Ammo 2     |       5       |     Fast     |
-| Dragon Ammo        |       2       |     Fast     |
-| Poison Ammo 2      |       5       |    Medium    |
-| Flaming Ammo       |       5       |    Medium    |
-| Thunder Ammo       |       5       |    Medium    |
+| Sticky Ammo 2      |       2       |     Fast     |
+| Sticky Ammo 3      |       2       |     Fast     |
+| Pierce Ammo 3      |       5       |    Medium    |
+| Recover Ammo 2     |       2       |    Medium    |
 | Tranq Ammo         |       3       |    Medium    |
 
 </td>
@@ -227,7 +220,9 @@
 
 | Rarity | Base Raw | Primary Ammo |
 |:------:|:--------:|:------------:|
-|   12   |   290    |   Spread 3   |
+|   12   |   290*   |   Spread 3   |
+
+*Atk V (x4) + Spread Capacity III
 
 </td>
 </tr>
