@@ -40,7 +40,7 @@
 
 ### BAZELCORE
 
-- An effective Pierce option, offering Pierce 3 at fast bounces with a huge variety of bounce-able ammo types to utilize from.
+- A fast bouncing Pierce 3 option with a huge selection of ammo types to utilize from.
 
 <table>
 <tr style="vertical-align:top;">
@@ -61,7 +61,7 @@
 <td colspan="2">
 
 | Ammo Type          | Magazine Size | Bounce Speed |
-|--------------------|:-------------:|:------------:|
+|:------------------:|:-------------:|:------------:|
 | Normal Ammo 3      |       3       |     Fast     |
 | Pierce Ammo 3      |       3       |     Fast     |
 | Sticky Ammo 1      |       3       |     Fast     |
@@ -124,7 +124,7 @@
 
 ## ROYAL SUREFIRE SHOT
 
-- This gun may fall short on brute strength, but it stands out with the largest Normal 3 magazine and it's unique ability to ledge bounce with the most ammo types in game.
+- Largest Normal 3 magazine gun with the ability to ledge bounce the highest selection of ammo types out of any LBG.
 
 <table>
 <tr style="vertical-align:top;">
@@ -145,7 +145,7 @@
 <td colspan="2">
 
 | Ammo Type          | Magazine Size | Bounce Speed |
-|--------------------|:-------------:|:------------:|
+|:------------------:|:-------------:|:------------:|
 | Normal Ammo 3      |       5       |     Fast     |
 | Pierce Ammo 3      |       3       |     Fast     |
 | Spread Ammo 2      |       4       |     Fast     |
@@ -169,7 +169,7 @@
 
 ## SAFI'S AQUASHOT
 
-- Possessing the largest Pierce 3 magazine (5); Even when factoring in its medium bounce speed, it stands as the likely king of Pierce ledge LBG. 
+- Possessing the largest Pierce 3 magazine, although its medium bounce speed, likely by default makes this gun king of Pierce LLBG. 
 
 <table>
 <tr style="vertical-align:top;">
@@ -192,7 +192,7 @@
 <td colspan="2">
 
 | Ammo Type          | Magazine Size | Bounce Speed |
-|--------------------|:-------------:|:------------:|
+|:------------------:|:-------------:|:------------:|
 | Sticky Ammo 2      |       2       |     Fast     |
 | Sticky Ammo 3      |       2       |     Fast     |
 | Pierce Ammo 3      |       5       |    Medium    |
@@ -207,7 +207,7 @@
 
 ## SAFI'S DRAKSHOT
 
-- The absolute king of LLBG. With an unmatched Spread 3 magazine of 5, this gun is without a doubt in a class of its own. 
+- With an unmatched magazine size for Spread 3s, this gun is without a doubt in a class of its own. 
 
 <table>
 <tr style="vertical-align:top;">
@@ -230,7 +230,7 @@
 <td colspan="2">
 
 | Ammo Type          | Magazine Size | Bounce Speed |
-|--------------------|:-------------:|:------------:|
+|:------------------:|:-------------:|:------------:|
 | Spread Ammo 3      |       5       |     Fast     |
 | Recover Ammo 2     |       3       |    Medium    |
 | Tranq Ammo         |       3       |    Medium    |
@@ -244,7 +244,7 @@
 
 ## TEN THOUSAND VOLTS
 
-- At the pinnacle of base raw damage, this gun also holds the title as the most devastating Normal 3 and Sticky 3 ledge LBG in the game.  
+- the pinnacle of base raw and the most devastating Normal 3 and Sticky 3 ledge LBG in the game.  
 
 <table>
 <tr style="vertical-align:top;">
@@ -265,7 +265,7 @@
 <td colspan="2">
 
 | Ammo Type          | Magazine Size | Bounce Speed |
-|--------------------|:-------------:|:------------:|
+|:------------------:|:-------------:|:------------:|
 | Normal Ammo 3      |       4       |     Fast     |
 | Spread Ammo 3      |       3       |     Fast     |
 | Sticky Ammo 3      |       3       |     Fast     |
