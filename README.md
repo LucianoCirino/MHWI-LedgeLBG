@@ -1,10 +1,46 @@
 # MHWI_LLBG
 
+### Accursed Fire
+
+- A contender for the most powerful Pierce option, offering Pierce 3 at fast bounces.
+
+<table>
+<tr style="vertical-align:top;">
+<td>
+
+![image](https://github.com/LucianoCirino/MHWI-LedgeBounceLBG/assets/112517630/2d6b86f8-f94d-4b2a-ae0d-6133c8ea551f)
+
+</td>
+<td>
+
+| Rarity | Base Raw | Primary Ammo |
+|:------:|:--------:|:------------:|
+|   11   |   270*   |   Pierce 3   |
+
+*283.5 with NEB (297 in [ICE](https://github.com/AsteriskAmpersand/Ice-Stable))
+</td>
+</tr>
+<tr style="vertical-align:top;">
+<td colspan="2">
+
+|     Ammo Type      | Magazine Size | Bounce Speed |
+|:------------------:|:-------------:|:------------:|
+| Normal Ammo 3      |       4       |     Fast     |
+| Pierce Ammo 3      |       3       |     Fast     |
+| Spread Ammo 3      |       3       |     Fast     |
+| Sticky Ammo 1      |       3       |     Fast     |
+| Sticky Ammo 3      |       3       |     Fast     |
+| Tranq Ammo         |       3       |    Medium    |
+
+</td>
+</tr>
+</table>
+
 ---
 
 ### BAZELCORE
 
-- An effective Pierce option, offering Pierce 3 at fast bounces with a huge variety of CC Ammo types to also bounce from.
+- An effective Pierce option, offering Pierce 3 at fast bounces with a huge variety of bounce-able ammo types to utilize from.
 
 <table>
 <tr style="vertical-align:top;">
@@ -46,10 +82,9 @@
 
 ---
 
-
 ## FATALIS DEPTHS
 
-- A formidable Spread 3 option with unique Rapid-Fire Pierce 2 capabilities.
+- A formidable Spread/Pierce option with unique Rapid-Fire capabilities.
 
 <table>
 <tr style="vertical-align:top;">
@@ -60,9 +95,9 @@
 </td>
 <td>
 
-| Rarity | Base Raw |       Primary Ammo       |
-|:------:|:--------:|:------------------------:|
-|   12   |   285    |  Spread 3 / Pierce 2 RF  |
+| Rarity | Base Raw |        Primary Ammo          |
+|:------:|:--------:|:----------------------------:|
+|   12   |   285    |   Spread 3 / Pierce 2 (RF)   |
 
 </td>
 </tr>
@@ -70,20 +105,16 @@
 <td colspan="2">
 
 | Ammo Type          | Magazine Size | Bounce Speed |
-|--------------------|:-------------:|:------------:|
-| Normal Ammo 3      |       3       |     Fast     |
-| Pierce Ammo 3      |       3       |     Fast     |
-| Sticky Ammo 1      |       3       |     Fast     |
+|:------------------:|:-------------:|:------------:|
+| Spread Ammo 3      |       4       |     Fast     |
 | Sticky Ammo 2      |       3       |     Fast     |
 | Sticky Ammo 3      |       3       |     Fast     |
-| Paralysis Ammo 2   |       4       |     Fast     |
-| Exhaust Ammo 1     |       6       |     Fast     |
-| Exhaust Ammo 2     |       5       |     Fast     |
-| Dragon Ammo        |       2       |     Fast     |
-| Poison Ammo 2      |       5       |    Medium    |
-| Flaming Ammo       |       5       |    Medium    |
-| Thunder Ammo       |       5       |    Medium    |
+| Sticky Ammo 1      |       3       |    Medium    |
+| Spread Ammo 1      |       6       |    Medium    |
+| Pierce Ammo 3      |       4       |    Medium    |
 | Tranq Ammo         |       3       |    Medium    |
+| Pierce Ammo 2 (RF) |       5       |     Slow     |
+| Spread Ammo 2 (RF) |       5       |     Slow     |
 
 </td>
 </tr>
@@ -137,7 +168,7 @@
 
 ## SAFI'S AQUASHOT
 
-- Possessing the largest Pierce 3 magazine of 5, when even factoring in its medium bounce speed , its stands as the likely king of Pierce LLBG. 
+- Possessing the largest Pierce 3 magazine of 5; Even when factoring in its medium bounce speed, it stands likely as the king of Pierce LLBG. 
 
 <table>
 <tr style="vertical-align:top;">
@@ -214,7 +245,7 @@
 
 ## TEN THOUSAND VOLTS
 
-- At the pinnacle of base raw damage, this gun also holds the title for the most devastating Normal 3 and Sticky 3 ledge bowgun in game.  
+- At the pinnacle of base raw damage, this gun also holds the title as the most devastating Normal 3 and Sticky 3 LLBG in the game.  
 
 <table>
 <tr style="vertical-align:top;">
