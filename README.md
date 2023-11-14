@@ -17,7 +17,7 @@
 |:------:|:--------:|:------------:|
 |   11   |   270*   |   Pierce 3   |
 
-*283.5 with NEB (297 in [ICE](https://github.com/AsteriskAmpersand/Ice-Stable))
+*283.5 (297 in [ICE](https://github.com/AsteriskAmpersand/Ice-Stable)) with NEB 
 </td>
 </tr>
 <tr style="vertical-align:top;">
@@ -232,7 +232,9 @@
 | Ammo Type          | Magazine Size | Bounce Speed |
 |--------------------|:-------------:|:------------:|
 | Spread Ammo 3      |       5       |     Fast     |
+| Recover Ammo 2     |       3       |    Medium    |
 | Tranq Ammo         |       3       |    Medium    |
+| Normal Ammo 2 (RF) |       4       |     Slow     |
 
 </td>
 </tr>
@@ -242,7 +244,7 @@
 
 ## TEN THOUSAND VOLTS
 
-- At the pinnacle of base raw damage, this gun also holds the title as the most devastating Normal 3 and Sticky 3 LLBG in the game.  
+- At the pinnacle of base raw damage, this gun also holds the title as the most devastating Normal 3 and Sticky 3 ledge LBG in the game.  
 
 <table>
 <tr style="vertical-align:top;">
@@ -264,18 +266,9 @@
 
 | Ammo Type          | Magazine Size | Bounce Speed |
 |--------------------|:-------------:|:------------:|
-| Normal Ammo 3      |       3       |     Fast     |
-| Pierce Ammo 3      |       3       |     Fast     |
-| Sticky Ammo 1      |       3       |     Fast     |
-| Sticky Ammo 2      |       3       |     Fast     |
+| Normal Ammo 3      |       4       |     Fast     |
+| Spread Ammo 3      |       3       |     Fast     |
 | Sticky Ammo 3      |       3       |     Fast     |
-| Paralysis Ammo 2   |       4       |     Fast     |
-| Exhaust Ammo 1     |       6       |     Fast     |
-| Exhaust Ammo 2     |       5       |     Fast     |
-| Dragon Ammo        |       2       |     Fast     |
-| Poison Ammo 2      |       5       |    Medium    |
-| Flaming Ammo       |       5       |    Medium    |
-| Thunder Ammo       |       5       |    Medium    |
 | Tranq Ammo         |       3       |    Medium    |
 
 </td>
