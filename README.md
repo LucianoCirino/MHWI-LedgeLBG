@@ -1,25 +1,27 @@
-# Monster Hunter World: Iceborne - Ledge Bounce Light Bowgun
+# Monster Hunter World: Iceborne - Ledge (Bounce) Light Bowgun
 
-## 
+This  
+
+## Another Ledge exploit?!
 
 ## Bounce Types
-An ammo's bounce speed is dictated by its <code>recoil</code> level and <code>shot type</code>. The below table shows this relationship.
+An ammo's bounce speed is dictated by its <code>recoil_level</code> and <code>shot_type</code>. The below table shows this relationship.
 
 | Bounce Speed |     Recoil     |  Shot Type  | Shot Cycle | Start-Up Delay | Reload Delay | Notes                                                                                                   |
 |:------------:|:--------------:|:-----------:|:----------:|:--------------:|:------------:|:-------------------------------------------------------------------------------------------------------:|
 |     Fast     | Very High (+4) |    Normal   |   380 ms   |      0 ms      |     0 ms     | -                                                                                                       |
 |    Medium    |    High (+3)   |    Normal   |   550 ms   |     51 ms      |     0 ms     | Start-up delay is caused by having to reposition after ledge climb for first shot to bounce.            |
-|     Slow     |    High (+3)   | Rapid-Fire  |   700 ms   |      0 ms      |    34 ms     | Only works as the Primary ammo at 300fps (max allowed framerate in game). Reload delay is caused by having to delay final shot to stop bouncing. |
+|     Slow     |    High (+3)   | Rapid-Fire  |   700 ms   |      0 ms      |    34 ms     | Only works as the Primary ammo at 300fps (max allowed framerate in game) due to first shot failing to bounce at 240 fps. Reload delay is caused by having to delay final shot in order to stop bouncing. |
 
 *note: Although Recoil +4 Rapid-Fire "can" bounce, it requires repositioning between shots which makes it uviable.*
 
 ## Available Guns
 
-I've handpicked the below Light Bowguns as the most effective for the different types of ammo.
+I've handpicked the below options as the most effective ledge Light Bowguns for the different types of ammos.
 
 ### Accursed Fire
 
-- A contender for the most powerful Pierce ledge LBG, offering fast bouncing Pierce 3 at its highest possible base raw.
+- A contender for the most powerful Pierce ledge LBG, offering fast bouncing <code>Pierce Ammo 3</code> at its highest possible base raw.
 
 <table>
 <tr style="vertical-align:top;">
@@ -30,9 +32,9 @@ I've handpicked the below Light Bowguns as the most effective for the different 
 </td>
 <td>
 
-| Rarity | Base Raw | Primary Ammo |
-|:------:|:--------:|:------------:|
-|   11   |   270*   |   Pierce 3   |
+| Rarity | Base Raw |   Primary Ammo   |
+|:------:|:--------:|:----------------:|
+|   11   |   270*   |   Pierce Ammo 3  |
 
 *283.5 (297 in [ICE](https://github.com/AsteriskAmpersand/Ice-Stable)) with NEB 
 </td>
@@ -68,9 +70,9 @@ I've handpicked the below Light Bowguns as the most effective for the different 
 </td>
 <td>
 
-| Rarity | Base Raw | Primary Ammo |
-|:------:|:--------:|:------------:|
-|   11   |   280    |   Pierce 3   |
+| Rarity | Base Raw |   Primary Ammo    |
+|:------:|:--------:|:-----------------:|
+|   11   |   280    |   Pierce Ammo 3   |
 
 </td>
 </tr>
@@ -112,9 +114,9 @@ I've handpicked the below Light Bowguns as the most effective for the different 
 </td>
 <td>
 
-| Rarity | Base Raw |        Primary Ammo          |
-|:------:|:--------:|:----------------------------:|
-|   12   |   285    |   Spread 3 / Pierce 2 (RF)   |
+| Rarity | Base Raw |            Primary Ammo                |
+|:------:|:--------:|:--------------------------------------:|
+|   12   |   285    |   Spread Ammo 3 / Pierce Ammo 2 (RF)   |
 
 </td>
 </tr>
@@ -152,9 +154,9 @@ I've handpicked the below Light Bowguns as the most effective for the different 
 </td>
 <td>
 
-| Rarity | Base Raw | Primary Ammo |
-|:------:|:--------:|:------------:|
-|   12   |   270    |   Normal 3   |
+| Rarity | Base Raw |    Primary Ammo   |
+|:------:|:--------:|:-----------------:|
+|   12   |   270    |   Normal Ammo 3   |
 
 </td>
 </tr>
@@ -197,9 +199,9 @@ I've handpicked the below Light Bowguns as the most effective for the different 
 </td>
 <td>
 
-| Rarity | Base Raw | Primary Ammo |
-|:------:|:--------:|:------------:|
-|   12   |   290*   |   Pierce 3   |
+| Rarity | Base Raw |   Primary Ammo    |
+|:------:|:--------:|:-----------------:|
+|   12   |   290*   |   Pierce Ammo 3   |
 
 *Atk V (x4) + Pierce Capacity III
 
@@ -235,9 +237,9 @@ I've handpicked the below Light Bowguns as the most effective for the different 
 </td>
 <td>
 
-| Rarity | Base Raw | Primary Ammo |
-|:------:|:--------:|:------------:|
-|   12   |   290*   |   Spread 3   |
+| Rarity | Base Raw |   Primary Ammo    |
+|:------:|:--------:|:-----------------:|
+|   12   |   290*   |   Spread Ammo 3   |
 
 *Atk V (x4) + Spread Capacity III
 
@@ -272,9 +274,9 @@ I've handpicked the below Light Bowguns as the most effective for the different 
 </td>
 <td>
 
-| Rarity | Base Raw |      Primary Ammo         |
-|:------:|:--------:|:-------------------------:|
-|   12   |   310    |    Normal 3 / Sticky 3    |
+| Rarity | Base Raw |           Primary Ammo              |
+|:------:|:--------:|:-----------------------------------:|
+|   12   |   310    |    Normal Ammo 3 / Sticky Ammo 3    |
 
 </td>
 </tr>
@@ -294,12 +296,21 @@ I've handpicked the below Light Bowguns as the most effective for the different 
 
 ---
 
-## Ammo Scripting
+## Script Settings
+The below sections cover the different settings available and what they mean
+
+### General
+| LBG Name | Primary Ammo | Wyvern Blast Reload |
+|:--------:|:------------:|:-------------------:|
+| The name of the LBG you will be using. Script uses this name to pull the correct bounce timings for each ammo type.| The name of the primary damaging ammo you will be using. In order to begin the LLBG loop you must have your primary ammo selected in the ammo wheel and either climb a ledge or fall of a ledge. The Primary Ammo type is also the only ammo type you should be reloading. | If checked it uses the Wyvern Blast Reload as the mechanism for propelling you backwards for reloads. This is useful because normally the script is forced to reload on the last shot regardless of if last shot procs spareshot or not, this allows for last shot spare shot attempts. Probably only useful in [ICE](https://github.com/AsteriskAmpersand/Ice-Stable) where an extra mod slot is available for LBG to use.
+
+### Ammo Scripting
 For those who wish to utilize multiple ammo types, the script includes an optional sophisticated ammo control tool that allows you to bind PS4 buttons (hotkeys) to a set of actions to perform.
 
 |           Ammo Name              |                 Start Condition                     |                             Shot Limit                            |           Finish Action             |
 |:--------------------------------:|:---------------------------------------------------:|:-----------------------------------------------------------------:|:-----------------------------------:|
 | The name of the ammo to swap to. | The condition the Primary Ammo must be in to begin. | The number of shots to perform before executing the Finish Action.| The action to take when complete.   | 
+
 
 ## Install
 To install, simply click [here](#).
