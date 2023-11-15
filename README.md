@@ -5,7 +5,7 @@ This
 ## Another Ledge exploit?!
 
 ## Bounce Types
-An ammo's bounce speed is dictated by its <code>recoil_level</code> and <code>shot_type</code>. The below table shows this relationship.
+An ammo's bounce speed is dictated by its **Recoil** and **Shot Type**. The below table shows this relationship.
 
 | Bounce Speed |     Recoil     |  Shot Type  | Shot Cycle | Start-Up Delay | Reload Delay | Notes                                                                                                   |
 |:------------:|:--------------:|:-----------:|:----------:|:--------------:|:------------:|:-------------------------------------------------------------------------------------------------------:|
@@ -297,7 +297,7 @@ I've handpicked the below options as the most effective ledge Light Bowguns for 
 ---
 
 ## LLBG Settings
-The below sections cover the different settings available and what they mean
+The below section cover all the different settings that are available.
 
 ### General ⚙️
 | LBG Name | Primary Ammo | Wyvern Blast Reload |
@@ -307,19 +307,33 @@ The below sections cover the different settings available and what they mean
 ### Script Controls 🕹️
 | Reload (Script) | Exit (Script) | Stop LLGB |
 |:---------------:|:-------------:|:---------:|
-| The hotkey bind to reload the LLBG script. | The hotkey bind to terminate the LLBG script. | The hotkey bind to exit the current LLBG loop (does not stop script) |
+| The hotkey bind to reload the LLBG script.  | The hotkey bind to terminate the LLBG script. | The hotkey bind to exit the current LLBG loop (does not stop script) |
 
 ### KbM Controls ⌨️
 These are the controls the script is using to perform all the actions in the game, and as such must match your ingame Keyboard & Mouse controls. They are configured by default as my ingame defaults, but if you have different defaults (or don't want to reset your in game KbM settings) you can match them here manually. Don't put capital letters for letter presses. The craft key is intentionally left blank and should be number (1 → 8) shortcut to a in game macro to craft all your primary ammo. It can be left blank of you don't need extra primary ammo to craft.
 
 ### Ammo Scripting 📜
-For those who wish to utilize multiple ammo types, the script includes an optional sophisticated ammo control tool that allows you to bind PS4 buttons (hotkeys) to a set of actions to perform.
+For those who wish to utilize multiple ammo types, the LLBG script includes an optional sophisticated ammo control tool that allows you to bind PS4 buttons (hotkeys) to a set of actions to perform.
 
-|           Ammo Name              |                 Start Condition                     |                             Shot Limit                            |           Finish Action             |
-|:--------------------------------:|:---------------------------------------------------:|:-----------------------------------------------------------------:|:-----------------------------------:|
-| The name of the ammo to swap to. | The condition the Primary Ammo must be in to begin. | The number of shots to perform before executing the Finish Action.| The action to take when complete.   | 
+#### General settings:
+| Primary Ammo Hotkey | Ammo Sync Hotkey | Auto Ammo Sync |
+|:-------------------:|:----------------:|:--------------:|
+| The hotkey bind to automatically swap to your assigned Primary Ammo. During the LLBG loop it can also be used to cancel script commands and return to the primary ammo.| The hotkey bind to begin an Ammo Sync. An Ammo Sync is required to be done only once on your current ammo bag in order for script to "know" what the fastest possible path is to reach any given ammo type. An Ammo Sync consists of the script scrolling through all your ammo types and storing the positions of each ammo type into an array.| If checked the script will automatically perform an Ammo Sync after certain events such as the closing of the equippment menu, or loading into aquest.|
 
-### Ammo Scripting
+#### Table Options:
+| Ammo Name | Queue Hotkey | Start Condition | Shot Limit | Finish Action |
+|:---------:|:------------:|:---------------:|:----------:|:-------------:|
+| The name of the ammo to swap to. | The assigned hotkey to begin an action. The condition the Primary Ammo must be in to begin the scripted action. | The number of shots to perform before executing the Finish Action.| The action to take when complete.   | 
+
+‣ Swapping into ammo types that don't bounce works, however, this will exit the LLBG loop which must then be manually restarded again by walking off the ledge with your primary selected.
+
+‣ Multiple entries can have the same **Queue Hotkey**. Script will cycle through the assigned entries in order of of the table.  
+
+‣ A scripted ammo reaching zero is treated as equivalent as having reached its configured **Shot Limit**.
+
+‣ Commands to to swap into an ammo type that has no ammo will be ignored by the script. If multiple ammos are assigned a hotkey it will skip that entry in the script.
+
+# Other
 
 ## Install
 To install, simply click [here](#).
@@ -330,7 +344,7 @@ First set and save your settings via the gui (LLBG_settings.vbs), then run the m
 *note: You must reload the script to apply saved gui changes.*
 
 ## Dependencies
-You must be using a Windows OS to run AutoHotkey scripts.
+A Windows OS is required to run AutoHotkey scripts.
 
 ## Special Thanks
 
