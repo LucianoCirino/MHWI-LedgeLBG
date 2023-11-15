@@ -1,4 +1,21 @@
-# MHWI_LLBG
+# Monster Hunter World: Iceborne - Ledge Bounce Light Bowgun Script
+
+## 
+
+## Bounce Types
+An ammo bounce speed is dictated by its <code>recoil</code> level and <code>shot type</code>. The below table shows this relationship.
+
+| Bounce Speed |     Recoil     |  Shot Type  | Shot Cycle | Start-Up Delay | Reload Delay | Notes                                                                                                   |
+|:------------:|:--------------:|:-----------:|:----------:|:--------------:|:------------:|:-------------------------------------------------------------------------------------------------------:|
+|     Fast     | Very High (+4) |    Normal   |   380 ms   |      0 ms      |     0 ms     | -                                                                                                       |
+|    Medium    |    High (+3)   |    Normal   |   550 ms   |     51 ms      |     0 ms     | Start-up delay is caused by having to reposition after ledge climb for first shot to bounce.            |
+|     Slow     |    High (+3)   | Rapid-Fire  |   700 ms   |      0 ms      |    34 ms     | Only works as the Primary ammo at 300fps (max allowed framerate in game). Reload delay is caused by having to delay final shot to stop bouncing. |
+
+*note: Although Recoil +4 Rapid-Fire "can" bounce, it requires repositioning between shots which makes it completely uviable.*
+
+## Available Gun Options
+
+The below LBG's were selected by me for being the most viable options for differing types of ammo types.
 
 ### Accursed Fire
 
@@ -276,3 +293,12 @@
 </table>
 
 ---
+
+## Ammo Scripting
+
+
+## Running
+To setup your settings, simply run the 
+
+## Install
+
