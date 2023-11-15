@@ -13,9 +13,9 @@ An ammo's bounce speed is dictated by its <code>recoil</code> level and <code>sh
 
 *note: Although Recoil +4 Rapid-Fire "can" bounce, it requires repositioning between shots which makes it uviable.*
 
-## Available Gun Options
+## Available Guns
 
-The below LBG's were selected by me for being the most viable options for differing types of ammo types.
+I've handpicked the below Light Bowguns as the most effective for the different types of ammo.
 
 ### Accursed Fire
 
@@ -55,7 +55,7 @@ The below LBG's were selected by me for being the most viable options for differ
 
 ---
 
-### BAZELCORE
+### Bazelcore
 
 - A fast bouncing Pierce 3 alternative with a huge selection of ammo types to utilize from.
 
@@ -99,7 +99,7 @@ The below LBG's were selected by me for being the most viable options for differ
 
 ---
 
-## FATALIS DEPTHS
+### Fatalis Depths
 
 - A formidable Spread/Pierce option with unique Rapid-Fire capabilities.
 
@@ -139,7 +139,7 @@ The below LBG's were selected by me for being the most viable options for differ
 
 ---
 
-## ROYAL SUREFIRE SHOT
+### Royal Surefire Shot
 
 - A gun with an unparalleled Normal 3 magazine size and the unique ability to utilize every cc ammo type in game.
 
@@ -184,7 +184,7 @@ The below LBG's were selected by me for being the most viable options for differ
 
 ---
 
-## SAFI'S AQUASHOT
+### Safi's Aquashot
 
 - Although it ledge bounces Pierce 3 only at medium speed, a magazine size of 5 is nothing to scoff at. 
 
@@ -222,7 +222,7 @@ The below LBG's were selected by me for being the most viable options for differ
 
 ---
 
-## SAFI'S DRAKSHOT
+### Safi's Drakshot
 
 - With it's unmatched Spread 3 magazine size, this gun is without a doubt in a class of its own. 
 
@@ -259,7 +259,7 @@ The below LBG's were selected by me for being the most viable options for differ
 
 ---
 
-## TEN THOUSAND VOLTS
+### Ten Thousand Volts
 
 - The pinnacle of base raw is also the most devastating Normal 3 and Sticky 3 ledge LBG in the game.  
 
@@ -295,14 +295,22 @@ The below LBG's were selected by me for being the most viable options for differ
 ---
 
 ## Ammo Scripting
+For those who wish to utilize multiple ammo types, the script includes an optional sophisticated ammo control tool that allows you to bind PS4 buttons (hotkeys) to a set of actions to perform.
 
-
-## How to Run
-Run the file "LLBG_settings.vbs" to set your settings via a gui, then after saving your changes run the file "LLBG_run.vbs".
-You must reload the script to apply saved changes from the gui.   
+|           Ammo Name              |                 Start Condition                     |                             Shot Limit                            |           Finish Action             |
+|:--------------------------------:|:---------------------------------------------------:|:-----------------------------------------------------------------:|:-----------------------------------:|
+| The name of the ammo to swap to. | The condition the Primary Ammo must be in to begin. | The number of shots to perform before executing the Finish Action.| The action to take when complete.   | 
 
 ## Install
 To install, simply click [here](#).
 
+## How to run
+First set and save your settings via the gui (LLBG_settings.vbs), then run the main script (LLBG_run.vbs).
+
+*note: You must reload the script to apply saved gui changes.*
+
 ## Dependencies
 You must be using a Windows OS to run AutoHotkey scripts.
+
+## Special Thanks
+
