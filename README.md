@@ -2,7 +2,7 @@
 
 ### Accursed Fire
 
-- A contender for the most powerful Pierce option, offering Pierce 3 at fast bounces.
+- A contender for the most powerful Pierce ledge LBG, offering fast bouncing Pierce 3 at its highest possible base raw.
 
 <table>
 <tr style="vertical-align:top;">
@@ -40,7 +40,7 @@
 
 ### BAZELCORE
 
-- A fast bouncing Pierce 3 option with a huge selection of ammo types to utilize from.
+- A fast bouncing Pierce 3 alternative with a huge selection of ammo types to utilize from.
 
 <table>
 <tr style="vertical-align:top;">
@@ -124,7 +124,7 @@
 
 ## ROYAL SUREFIRE SHOT
 
-- Largest Normal 3 magazine gun with the ability to ledge bounce the highest selection of ammo types out of any LBG.
+- A gun with an unparalleled Normal 3 magazine size and the unique ability to utilize every cc ammo type in game.
 
 <table>
 <tr style="vertical-align:top;">
@@ -169,7 +169,7 @@
 
 ## SAFI'S AQUASHOT
 
-- Possessing the largest Pierce 3 magazine, although its medium bounce speed, likely by default makes this gun king of Pierce LLBG. 
+- Although it ledge bounces Pierce 3 only at medium speed, a magazine size of 5 is nothing to scoff at. 
 
 <table>
 <tr style="vertical-align:top;">
@@ -207,7 +207,7 @@
 
 ## SAFI'S DRAKSHOT
 
-- With an unmatched magazine size for Spread 3s, this gun is without a doubt in a class of its own. 
+- With it's unmatched Spread 3 magazine size, this gun is without a doubt in a class of its own. 
 
 <table>
 <tr style="vertical-align:top;">
@@ -244,7 +244,7 @@
 
 ## TEN THOUSAND VOLTS
 
-- the pinnacle of base raw and the most devastating Normal 3 and Sticky 3 ledge LBG in the game.  
+- The pinnacle of base raw is also the most devastating Normal 3 and Sticky 3 ledge LBG in the game.  
 
 <table>
 <tr style="vertical-align:top;">
