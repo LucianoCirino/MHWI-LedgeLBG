@@ -59,7 +59,7 @@ I've handpicked the below options as the most effective ledge Light Bowguns for 
 
 ### Bazelcore
 
-- A fast bouncing Pierce 3 alternative with a huge selection of ammo types to utilize from.
+- A fast bouncing <code>Pierce Ammo 3</code> alternative with a huge selection of ammo types to utilize from.
 
 <table>
 <tr style="vertical-align:top;">
@@ -143,7 +143,7 @@ I've handpicked the below options as the most effective ledge Light Bowguns for 
 
 ### Royal Surefire Shot
 
-- A gun with an unparalleled Normal 3 magazine size and the unique ability to utilize every cc ammo type in game.
+- A gun with an unparalleled <code>Normal Ammo 3</code> magazine size and the unique ability to utilize every cc ammo type in game.
 
 <table>
 <tr style="vertical-align:top;">
@@ -188,7 +188,7 @@ I've handpicked the below options as the most effective ledge Light Bowguns for 
 
 ### Safi's Aquashot
 
-- Although it ledge bounces Pierce 3 only at medium speed, a magazine size of 5 is nothing to scoff at. 
+- Although it ledge bounces <code>Pierce Ammo 3</code> only at medium speed, a magazine size of 5 is nothing to scoff at. 
 
 <table>
 <tr style="vertical-align:top;">
@@ -226,7 +226,7 @@ I've handpicked the below options as the most effective ledge Light Bowguns for 
 
 ### Safi's Drakshot
 
-- With it's unmatched Spread 3 magazine size, this gun is without a doubt in a class of its own. 
+- With it's unmatched <code>Spread Ammo 3</code> magazine size, this gun is without a doubt in a class of its own. 
 
 <table>
 <tr style="vertical-align:top;">
@@ -263,7 +263,7 @@ I've handpicked the below options as the most effective ledge Light Bowguns for 
 
 ### Ten Thousand Volts
 
-- The pinnacle of base raw is also the most devastating Normal 3 and Sticky 3 ledge LBG in the game.  
+- The pinnacle of base raw is also the most devastating <code>Normal Ammo 3</code> and <code>Sticky Ammo 3</code> ledge LBG in the game.  
 
 <table>
 <tr style="vertical-align:top;">
@@ -296,21 +296,30 @@ I've handpicked the below options as the most effective ledge Light Bowguns for 
 
 ---
 
-## Script Settings
+## LLBG Settings
 The below sections cover the different settings available and what they mean
 
-### General
+### General ⚙️
 | LBG Name | Primary Ammo | Wyvern Blast Reload |
 |:--------:|:------------:|:-------------------:|
 | The name of the LBG you will be using. Script uses this name to pull the correct bounce timings for each ammo type.| The name of the primary damaging ammo you will be using. In order to begin the LLBG loop you must have your primary ammo selected in the ammo wheel and either climb a ledge or fall of a ledge. The Primary Ammo type is also the only ammo type you should be reloading. | If checked it uses the Wyvern Blast Reload as the mechanism for propelling you backwards for reloads. This is useful because normally the script is forced to reload on the last shot regardless of if last shot procs spareshot or not, this allows for last shot spare shot attempts. Probably only useful in [ICE](https://github.com/AsteriskAmpersand/Ice-Stable) where an extra mod slot is available for LBG to use.
 
-### Ammo Scripting
+### Script Controls 🕹️
+| Reload (Script) | Exit (Script) | Stop LLGB |
+|:---------------:|:-------------:|:---------:|
+|
+
+### KbM Controls ⌨️
+
+
+### Ammo Scripting 📜
 For those who wish to utilize multiple ammo types, the script includes an optional sophisticated ammo control tool that allows you to bind PS4 buttons (hotkeys) to a set of actions to perform.
 
 |           Ammo Name              |                 Start Condition                     |                             Shot Limit                            |           Finish Action             |
 |:--------------------------------:|:---------------------------------------------------:|:-----------------------------------------------------------------:|:-----------------------------------:|
 | The name of the ammo to swap to. | The condition the Primary Ammo must be in to begin. | The number of shots to perform before executing the Finish Action.| The action to take when complete.   | 
 
+### Ammo Scripting
 
 ## Install
 To install, simply click [here](#).
