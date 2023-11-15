@@ -297,12 +297,12 @@ I've handpicked the below options as the most effective ledge Light Bowguns for 
 ---
 
 ## LLBG Settings
-The below section cover all the different settings that are available.
+The below section cover all the different settings that are available from the GUI.
 
 ### General ⚙️
 | LBG Name | Primary Ammo | Wyvern Blast Reload |
 |:--------:|:------------:|:-------------------:|
-| The name of the LBG you will be using. Script uses this name to pull the correct bounce timings for each ammo type.| The name of the primary damaging ammo you will be using. In order to begin the LLBG loop you must have your primary ammo selected in the ammo wheel and either climb a ledge or fall of a ledge. The Primary Ammo type is also the only ammo type you should be reloading. | If checked it uses the Wyvern Blast Reload as the mechanism for propelling you backwards for reloads. This is useful because normally the script is forced to reload on the last shot regardless of if last shot procs spareshot or not, this allows for last shot spare shot attempts. Probably only useful in [ICE](https://github.com/AsteriskAmpersand/Ice-Stable) where an extra mod slot is available for LBG to use.
+| The name of the LBG you will be using. Script uses this name to pull the correct bounce timings for each ammo type.| The name of the primary damaging ammo you will be using. In order to begin the LLBG loop you must have your primary ammo selected in the ammo wheel and either climb a ledge or fall off a ledge. The Primary Ammo type is also the only ammo type you should be reloading. | If checked it uses the Wyvern Blast Reload as the mechanism for propelling you backwards for reloads. This is useful because normally the script is forced to reload on the last shot regardless of if last shot procs spareshot or not, this allows the script to go for last-shot spare-shot attempts. Probably only useful in [ICE](https://github.com/AsteriskAmpersand/Ice-Stable) where an extra mod slot is available for LBG to use.
 
 ### Script Controls 🕹️
 | Reload (Script) | Exit (Script) | Stop LLGB |
@@ -318,22 +318,23 @@ For those who wish to utilize multiple ammo types, the LLBG script includes an o
 #### General settings:
 | Primary Ammo Hotkey | Ammo Sync Hotkey | Auto Ammo Sync |
 |:-------------------:|:----------------:|:--------------:|
-| The hotkey bind to automatically swap to your assigned Primary Ammo. During the LLBG loop it can also be used to cancel script commands and return to the primary ammo.| The hotkey bind to begin an Ammo Sync. An Ammo Sync is required to be done only once on your current ammo bag in order for script to "know" what the fastest possible path is to reach any given ammo type. An Ammo Sync consists of the script scrolling through all your ammo types and storing the positions of each ammo type into an array.| If checked the script will automatically perform an Ammo Sync after certain events such as the closing of the equippment menu, or loading into aquest.|
+| The hotkey bind to automatically swap to your assigned Primary Ammo. During the LLBG loop it can also be used to cancel script commands and return to the primary ammo.| The hotkey bind to begin an Ammo Sync. An Ammo Sync is required to be done only once on your current ammo bag in order for script to "know" what the fastest possible path is to reach any given ammo type. An Ammo Sync consists of the script scrolling through all your ammo types and storing the positions of each ammo type into an array.| If checked the script will automatically perform an Ammo Sync after certain events such as the closing of the equippment menu, or loading into a quest.|
 
 #### Table Options:
 | Ammo Name | Queue Hotkey | Start Condition | Shot Limit | Finish Action |
 |:---------:|:------------:|:---------------:|:----------:|:-------------:|
-| The name of the ammo to swap to. | The assigned hotkey to begin an action. The condition the Primary Ammo must be in to begin the scripted action. | The number of shots to perform before executing the Finish Action.| The action to take when complete.   | 
+| The name of the ammo type to swap to. | The assigned hotkey to begin the scripted action.| The condition the Primary Ammo must be in order to begin the scripted action. | The number of shots to perform before executing the Finish Action.| The action to take when complete. "Return" returns you to the primary ammo type, "Next" moves you to the next index entry in the ammo script table. | 
 
-‣ Swapping into ammo types that don't bounce works, however, this will exit the LLBG loop which must then be manually restarded again by walking off the ledge with your primary selected.
+#### Notes:
+‣ Swapping into ammo types that don't bounce works, however, this will exit the LLBG loop which must then be manually restarded again (walking off ledge).
 
-‣ Multiple entries can have the same **Queue Hotkey**. Script will cycle through the assigned entries in order of of the table.  
+‣ Multiple entries can have the same **Queue Hotkey**. As they are called, script will cycle through the assigned entries in the indexed order of the table.  
 
 ‣ A scripted ammo reaching zero is treated as equivalent as having reached its configured **Shot Limit**.
 
 ‣ Commands to to swap into an ammo type that has no ammo will be ignored by the script. If multiple ammos are assigned a hotkey it will skip that entry in the script.
 
-# Other
+‣ During firing, the ammo wheel is cycled in order to keep it open. This is done because there is a huge startup delay for traversing through more than one entry in the ammo wheel if it was previously closed ; It takes 17ms to move one entry and ~350ms to begin moving it again. Once open however, it only takes N x 17ms to traverse to an ammo type, with N representing the number of swaps it takes to reach the ammo's destination.
 
 ## Install
 To install, simply click [here](#).
