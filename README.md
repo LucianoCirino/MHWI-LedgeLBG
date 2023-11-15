@@ -1,9 +1,9 @@
-# Monster Hunter World: Iceborne - Ledge Bounce Light Bowgun Script
+# Monster Hunter World: Iceborne - Ledge Bounce Light Bowgun
 
 ## 
 
 ## Bounce Types
-An ammo bounce speed is dictated by its <code>recoil</code> level and <code>shot type</code>. The below table shows this relationship.
+An ammo's bounce speed is dictated by its <code>recoil</code> level and <code>shot type</code>. The below table shows this relationship.
 
 | Bounce Speed |     Recoil     |  Shot Type  | Shot Cycle | Start-Up Delay | Reload Delay | Notes                                                                                                   |
 |:------------:|:--------------:|:-----------:|:----------:|:--------------:|:------------:|:-------------------------------------------------------------------------------------------------------:|
@@ -11,7 +11,7 @@ An ammo bounce speed is dictated by its <code>recoil</code> level and <code>shot
 |    Medium    |    High (+3)   |    Normal   |   550 ms   |     51 ms      |     0 ms     | Start-up delay is caused by having to reposition after ledge climb for first shot to bounce.            |
 |     Slow     |    High (+3)   | Rapid-Fire  |   700 ms   |      0 ms      |    34 ms     | Only works as the Primary ammo at 300fps (max allowed framerate in game). Reload delay is caused by having to delay final shot to stop bouncing. |
 
-*note: Although Recoil +4 Rapid-Fire "can" bounce, it requires repositioning between shots which makes it completely uviable.*
+*note: Although Recoil +4 Rapid-Fire "can" bounce, it requires repositioning between shots which makes it uviable.*
 
 ## Available Gun Options
 
@@ -297,8 +297,12 @@ The below LBG's were selected by me for being the most viable options for differ
 ## Ammo Scripting
 
 
-## Running
-To setup your settings, simply run the 
+## How to Run
+Run the file "LLBG_settings.vbs" to set your settings via a gui, then after saving your changes run the file "LLBG_run.vbs".
+You must reload the script to apply saved changes from the gui.   
 
 ## Install
+To install, simply click [here](#).
 
+## Dependencies
+You must be using a Windows OS to run AutoHotkey scripts.
