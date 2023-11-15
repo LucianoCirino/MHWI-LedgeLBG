@@ -307,10 +307,10 @@ The below sections cover the different settings available and what they mean
 ### Script Controls 🕹️
 | Reload (Script) | Exit (Script) | Stop LLGB |
 |:---------------:|:-------------:|:---------:|
-|
+| The hotkey bind to reload the LLBG script. | The hotkey bind to terminate the LLBG script. | The hotkey bind to exit the current LLBG loop (does not stop script) |
 
 ### KbM Controls ⌨️
-
+These are the controls the script is using to perform all the actions in the game, and as such must match your ingame Keyboard & Mouse controls. They are configured by default as my ingame defaults, but if you have different defaults (or don't want to reset your in game KbM settings) you can match them here manually. Don't put capital letters for letter presses. The craft key is intentionally left blank and should be number (1 → 8) shortcut to a in game macro to craft all your primary ammo. It can be left blank of you don't need extra primary ammo to craft.
 
 ### Ammo Scripting 📜
 For those who wish to utilize multiple ammo types, the script includes an optional sophisticated ammo control tool that allows you to bind PS4 buttons (hotkeys) to a set of actions to perform.
