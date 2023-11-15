@@ -1,11 +1,15 @@
-# Monster Hunter World: Iceborne - Ledge (Bounce) Light Bowgun
+# Monster Hunter World: Iceborne - Ledge Bounce Light Bowgun
 
-This  
+### Premise
+This script was designed to perform the next generation of the Ledge Light Bowgun (LLBG) exploit I have coined "Ledge Bounce Light Bowgun". This new and improved variation abuses oddities that occur with ledges when you crank up the framerate.
 
-## Another Ledge exploit?!
+### How does it work? 
+In MHW:Iceborne when an ammo type that recoils you back is fired, you can use a ledge to cancel your recoil animation with a falling animation. As you cross the framerate threshold of 240fps however, something interesting begins to happen with these ledge recoil cancels. You will notice that on certain instances you can instead of fall, "bounce" from the ledge, as if you hit a wall. It turns out these bounces are completely controllable, and with the right inputs and timings really push the game's limits to the extreme. 
 
-## Bounce Types
-An ammo's bounce speed is dictated by its **Recoil** and **Shot Type**. The below table shows this relationship.
+###
+
+## Mapping Bounce Types
+An ammo's bounce speed is dictated by its **Recoil** and **Shot Type** stats. The below table shows this relationship.
 
 | Bounce Speed |     Recoil     |  Shot Type  | Shot Cycle | Start-Up Delay | Reload Delay | Notes                                                                                                   |
 |:------------:|:--------------:|:-----------:|:----------:|:--------------:|:------------:|:-------------------------------------------------------------------------------------------------------:|
@@ -330,11 +334,15 @@ For those who wish to utilize multiple ammo types, the LLBG script includes an o
 
 ‣ Multiple entries can have the same **Queue Hotkey**. As they are called, script will cycle through the assigned entries in the indexed order of the table.  
 
-‣ A scripted ammo reaching zero is treated as equivalent as having reached its configured **Shot Limit**.
+‣ A scripted ammo reaching zero is treated as equivalent to having its configured **Shot Limit** reached.
 
 ‣ Commands to to swap into an ammo type that has no ammo will be ignored by the script. If multiple ammos are assigned a hotkey it will skip that entry in the script.
 
-‣ During firing, the ammo wheel is cycled in order to keep it open. This is done because there is a huge startup delay for traversing through more than one entry in the ammo wheel if it was previously closed ; It takes 17ms to move one entry and ~350ms to begin moving it again. Once open however, it only takes N x 17ms to traverse to an ammo type, with N representing the number of swaps it takes to reach the ammo's destination.
+‣ During firing, the ammo wheel is cycled in order to keep it open. This is done because there is a huge startup delay for traversing through more than one entry in the ammo wheel at a time if it was previously closed ; It takes 17ms to move one entry and ~350ms to begin moving it again. Once open however, it only takes N x 17ms to traverse to any ammo type in your bag, with N representing shortest the number of swaps it takes to reach the desired ammo's destination.
+
+#### Example:
+  < WIP >
+  
 
 ## Install
 To install, simply click [here](#).
