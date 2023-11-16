@@ -5,6 +5,8 @@ This tool was designed to be used with the Light Bowgun to perform the latest it
 ### Premise 
 In Monster Hunter World: Iceborne, the Light Bowgun has the ability to cancel high recoil shots with a ledge by interrupting the recoil animation with a fall. Normally upon falling you are pushed off the ledge, however, as you cross the framerate boundary of 240fps, you gain the special ability to re-land immediately from this fall and "bounce" away from the ledge. With the right inputs and timings, this bounce can be looped indefinitely, allowing you to fire the Light Bowgun at unprecedented rates.
 
+<br>
+
 ## Recoil, Shot Types, and their Ledge Bounce Behaviors
 Depending on your **recoil level** and **shot type**, the timing for how to can begin, maintain, and terminate the Ledge Light Bowgun exploit will differ. The below table displays these relationships.
 
@@ -309,7 +311,7 @@ The below section covers what all the different gui settings do.
 |:-------------------:|:-----------:|
 | LBG Name            | The name of the LBG you will be using. The script uses this name to pull the correct bounce timings for each ammo type. |
 | Primary Ammo        | The name of the primary damaging ammo. To begin the LLBG loop, have this ammo selected and either climb a ledge or fall off one. This is also the only ammo type you should be reloading. |
-| Wyvern Blast Reload | If enabled, the script uses Wyvern Blast Reload for achieving reloads. Originally intended to mitigate forced reloads on the last shot, however it adds about ~400ms to the ledge bounce which negates any of its benefits. Currently, it remains as a relic of my testing. Leave unchecked. |
+| Wyvern Blast Reload | If enabled, the script uses the Wyvern Blast custom mod for performing reloads. This option was originally added as a way to mitigate having to always go for a reload when 1 shot remains. Unfortunetely this comes at the cost of an extra bounce before each reload which negates any of its benefits. Currently, this option remains as a relic of my testing, leave it unchecked. |
 
 ### 🕹️ Script Controls
 |      Option      |                   Description                         |
