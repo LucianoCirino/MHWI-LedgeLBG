@@ -1,6 +1,6 @@
 # Ledge Light Bowgun (LLBG) Exploit Tool
 
-This tool was designed to be used with the Light Bowgun to perform the new evolution of the LLBG exploit which abuses oddities that emerge with the ledge when you crank up the framerate. 
+This tool was designed to be used with the Light Bowgun to perform the latest iteration of the LLBG exploit which abuses ledge oddities that emerge when you crank up the framerate. 
 
 ### Premise 
 In Monster Hunter World: Iceborne, the Light Bowgun has the ability to cancel high recoil shots with a ledge by interrupting the recoil animation with a fall. Normally upon falling you are pushed off the ledge, however, as you cross the framerate boundary of 240fps, you gain the special ability to re-land immediately from this fall and "bounce" away from the ledge. With the right inputs and timings, this bounce can be looped indefinitely, allowing you to fire the Light Bowgun at unprecedented rates.
@@ -19,7 +19,7 @@ Depending on your **recoil level** and **shot type**, the timing for how to can 
 <br>
 
 ## Available Ledge Light Bowguns
-Below is a hand-picked selection the most effective Ledge Light Bowguns for the different types of ammos.
+Below is a hand-picked selection the most effective Ledge Light Bowguns for the different types of raw ammos.
 >note: For LLBG, you should never equip any custom mods that affect your recoil or reload stats!
 
 ### Accursed Fire
@@ -302,7 +302,7 @@ Below is a hand-picked selection the most effective Ledge Light Bowguns for the 
 <br>
 
 ## Script Settings
-The below section covers what all the different gui settings available are and do.
+The below section covers what all the different gui settings do.
 
 ### ⚙️ General 
 |       Option        | Description |
@@ -343,9 +343,6 @@ For those who wish to utilize multiple ammo types, the LLBG script includes an o
 > Commands to swap into an ammo type that has no ammo will be ignored by the script. If multiple ammos are assigned a hotkey, it will skip the entry that has no ammo.
 
 > During firing, the ammo wheel is cycled in order to keep it open. This is done because there is a huge startup delay for traversing through more than one entry in the ammo wheel at a time if it was previously closed ; It takes 17ms to move one entry and ~350ms to begin moving it again. Once open however, it only takes N x 17ms to traverse to any ammo type in your bag, with N representing shortest the number of swaps it takes to reach the desired ammo's destination.
-
-#### Example:
-  *To do*
 
 ### ⌨️ KbM Controls
 These are the controls the script is using to perform all the actions in the game, and as such must match your ingame Keyboard & Mouse controls. They are configured by default as my ingame defaults, but if you have different defaults (or don't want to reset your in game KbM settings) you can match them here manually. Don't put capital letters for letter presses.
