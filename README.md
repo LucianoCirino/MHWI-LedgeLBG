@@ -6,22 +6,21 @@ This tool was designed to be used with the Light Bowgun to perform the new evolu
 In Monster Hunter World: Iceborne, the Light Bowgun has the ability to cancel high recoil shots with a ledge by interrupting the recoil animation with a fall. Normally upon falling you are pushed off the ledge, however, as you cross the framerate boundary of 240fps, you gain the special ability to re-land immediately from this fall and "bounce" away from the ledge. With the right inputs and timings, this bounce can be looped indefinitely, allowing you to fire the Light Bowgun at unprecedented rates.
 
 ## Recoil, Shot Types, and their Ledge Bounce Behaviors
-Depending on your **recoil level** and **shot type**, the timing for how to can begin, maintain, and terminate the Ledge Light Bowgun exploit will differ. The below table displays this relationship.
+Depending on your **recoil level** and **shot type**, the timing for how to can begin, maintain, and terminate the Ledge Light Bowgun exploit will differ. The below table displays these relationships.
 
 | Bounce Speed |     Recoil     |  Shot Type  | Shot Cycle | Start-Up Delay | Reload Delay | Notes                                                                                                   |
 |:------------:|:--------------:|:-----------:|:----------:|:--------------:|:------------:|:-------------------------------------------------------------------------------------------------------:|
 |     Fast     | Very High (+4) |    Normal   |   380 ms   |      0 ms      |     0 ms     | -                                                                                                       |
 |    Medium    |    High (+3)   |    Normal   |   550 ms   |     51 ms      |     0 ms     | Start-up delay is caused by having to reposition after ledge climb for first shot to bounce.            |
-|     Slow     |    High (+3)   | Rapid-Fire  |   700 ms   |     †0 ms      |   †34 ms     | †Start-up delay only applicable at 300fps due to first shot failing to bounce at 240fps. Reload delay only applicable at 240fps due to higher framerates preventing this reoil-shot type combination from being able to fall off ledge. |
+|     Slow     |    High (+3)   | Rapid-Fire  |   700 ms   |     †0 ms      |   †34 ms     | †Start-up delay only applicable at 300fps due to first shot failing to bounce at 240fps. Reload delay only applicable at 240fps due to higher framerates preventing this recoil-shot type combination from being able to fall off ledge. |
 
 >note: Although Recoil +4 Rapid-Fire "can" bounce, it requires repositioning between shots which makes it uviable.
 
 <br>
 
 ## Available Ledge Light Bowguns
-
 Below is a hand-picked selection the most effective Ledge Light Bowguns for the different types of ammos.
->note: For LLBG, you should never have equipped any Recoil or Reload stat reducing modifications on your Bowgun.
+>note: For LLBG, you should never equip any custom mods that affect your recoil or reload stats!
 
 ### Accursed Fire
 
@@ -303,7 +302,7 @@ Below is a hand-picked selection the most effective Ledge Light Bowguns for the 
 <br>
 
 ## Script Settings
-The below section cover all the different script settings that are available from the GUI.
+The below section covers what all the different gui settings available are and do.
 
 ### ⚙️ General 
 |       Option        | Description |
@@ -349,7 +348,9 @@ For those who wish to utilize multiple ammo types, the LLBG script includes an o
   *To do*
 
 ### ⌨️ KbM Controls
-These are the controls the script is using to perform all the actions in the game, and as such must match your ingame Keyboard & Mouse controls. They are configured by default as my ingame defaults, but if you have different defaults (or don't want to reset your in game KbM settings) you can match them here manually. Don't put capital letters for letter presses. The craft key is intentionally left blank and should be number (1 → 8) shortcut to a in game macro to craft all your primary ammo. It can be left blank if you don't need to craft any ammo.
+These are the controls the script is using to perform all the actions in the game, and as such must match your ingame Keyboard & Mouse controls. They are configured by default as my ingame defaults, but if you have different defaults (or don't want to reset your in game KbM settings) you can match them here manually. Don't put capital letters for letter presses.
+
+>note: The **craft** key should be your ingame shortcut key that crafts all your primary ammo (1 → 8). This can be left blank if not used. 
 
 <br>
 
@@ -358,11 +359,11 @@ These are the controls the script is using to perform all the actions in the gam
 
 | Category        | Requirement |
 |:---------------:|:-----------:|
-| Script Controls | This script was designed to be used with a PlayStation controller. |
-| Game Version    | Must be on Monster Hunter World: Iceborne v15.20. |
-| NativePC Mods   | Installation of the [Better Input Detection](https://www.nexusmods.com/monsterhunterworld/mods/4333) mod by AsteriskAmpersand. |
-| Hardware        | Must have the ability to maintain game at a minimum of 240fps. |
-| Software        | Must be on a Windows Operating System. |
+| 1 | This script was designed to be used with a PlayStation controller. |
+| 2 | Must be on Monster Hunter World: Iceborne v15.20. |
+| 3 | Installation of the [Better Input Detection](https://www.nexusmods.com/monsterhunterworld/mods/4333) mod by AsteriskAmpersand. |
+| 4 | Must have the ability to maintain game at a minimum of 240fps. |
+| 5 | Must be on a Windows Operating System. |
 
 
 ## Install
@@ -371,7 +372,7 @@ To install, simply click [here](#).
 ## How to run
 First set and save your settings via the gui (LLBG_settings.vbs), then run the main script (LLBG_run.vbs).
 
-*note: You must reload the script to apply saved gui changes.*
+>note: You must reload the script to apply saved gui changes.
 
 ## Special Thanks
 
