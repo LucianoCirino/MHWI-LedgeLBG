@@ -1,12 +1,20 @@
-# Monster Hunter World: Iceborne - Ledge Bounce Light Bowgun
+# Ledge Light Bowgun (LLBG) Exploit Tool
 
 ### Premise
-This script was designed to perform the next generation of the Ledge Light Bowgun (LLBG) exploit I have coined "Ledge Bounce Light Bowgun". This new and improved variation abuses oddities that occur with ledges when you crank up the framerate.
+This tool was designed to be used with the Light Bowgun to perform an improved version of the LLBG exploit which abuses oddities that emerge with ledges when you crank up the framerate. 
 
 ### How does it work? 
-In MHW:Iceborne when an ammo type that recoils you back is fired, you can use a ledge to cancel your recoil animation with a falling animation. As you cross the framerate threshold of 240fps however, something interesting begins to happen with these ledge recoil cancels. You will notice that on certain instances you can instead of fall, "bounce" from the ledge, as if you hit a wall. It turns out these bounces are completely controllable, and with the right inputs and timings really push the game's limits to the extreme. 
+In Monster Hunter World when an ammo type that recoils you back is fired, one can use a ledge to cancel the recoil animation by trigggering a fall. As you cross the framerate threshold of 240fps recoil "bounce" from the ledge, as if you hit a wall. It turns out these bounces are completely controllable, and with the right inputs and timings really push the game's limits to the extreme. 
 
-###
+### Controls
+This script was designed to be piloted with a PlayStation controller.
+
+### Compatible Versions
+Monster Hunter World: Iceborne v15.20
+
+### Requirements
+1) [Better Input Detection](https://www.nexusmods.com/monsterhunterworld/mods/4333) Mod by AsteriskAmpersand. 
+2) Must have the ability to reach and maintain the game at 240fps.
 
 ## Mapping Bounce Types
 An ammo's bounce speed is dictated by its **Recoil** and **Shot Type** stats. The below table shows this relationship.
@@ -353,7 +361,7 @@ First set and save your settings via the gui (LLBG_settings.vbs), then run the m
 *note: You must reload the script to apply saved gui changes.*
 
 ## Dependencies
-A Windows OS is required to run AutoHotkey scripts.
+Must be running on a Windows OS.
 
 ## Special Thanks
 
