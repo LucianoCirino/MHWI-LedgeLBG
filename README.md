@@ -12,9 +12,9 @@ Depending on your **recoil level** and **shot type**, the timing for how to can 
 
 | Bounce Speed |     Recoil     |  Shot Type  | Shot Cycle | Start-Up Delay | Reload Delay | Notes                                                                                                   |
 |:------------:|:--------------:|:-----------:|:----------:|:--------------:|:------------:|:-------------------------------------------------------------------------------------------------------:|
-|     Fast     | Very High (+4) |    Normal   |   380 ms   |      0 ms      |     0 ms     | -                                                                                                       |
-|    Medium    |    High (+3)   |    Normal   |   550 ms   |     51 ms      |     0 ms     | Start-up delay is caused by having to reposition after ledge climb for first shot to bounce.            |
-|     Slow     |    High (+3)   | Rapid-Fire  |   700 ms   |     †0 ms      |   †34 ms     | †Start-up delay only applicable at 300fps due to first shot failing to bounce at 240fps. Reload delay only applicable at 240fps due to higher framerates preventing this recoil-shot type combination from being able to fall off ledge. |
+|     Fast     | Very High (+4) |    Normal   |   ~384 ms   |      0 ms      |     0 ms     | -                                                                                                       |
+|    Medium    |    High (+3)   |    Normal   |   ~550 ms   |     51 ms      |     0 ms     | Start-up delay is caused by having to reposition after ledge climb for first shot to bounce.            |
+|     Slow     |    High (+3)   | Rapid-Fire  |   ~700 ms   |     †0 ms      |   †34 ms     | †Start-up delay only applicable at 300fps due to first shot failing to bounce at 240fps. Reload delay only applicable at 240fps due to higher framerates preventing this recoil-shot type combination from being able to fall off ledge. |
 
 >note: Although Recoil +4 Rapid-Fire "can" bounce, it requires repositioning between shots which makes it uviable.
 
