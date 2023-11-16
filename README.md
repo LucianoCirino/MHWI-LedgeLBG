@@ -1,35 +1,33 @@
 # Ledge Light Bowgun (LLBG) Exploit Tool
 
-### Premise
-This tool was designed to be used with the Light Bowgun to perform an improved version of the LLBG exploit which abuses oddities that emerge with ledges when you crank up the framerate. 
+This tool was designed to be used with the Light Bowgun to perform an improved version of the LLBG exploit which abuses oddities that emerge with the ledge when you crank up the framerate. 
 
 ### How does it work? 
 In Monster Hunter World when an ammo type that recoils you back is fired, one can use a ledge to cancel the recoil animation by trigggering a fall. As you cross the framerate threshold of 240fps recoil "bounce" from the ledge, as if you hit a wall. It turns out these bounces are completely controllable, and with the right inputs and timings really push the game's limits to the extreme. 
 
-### Controls
-This script was designed to be piloted with a PlayStation controller.
+## Requirements
+| Category        | Requirement |
+|:---------------:|:-----------:|
+| Script Controls | This script was designed to be piloted with a PlayStation controller. |
+| Game Version    | Must be on Monster Hunter World: Iceborne v15.20. |
+| NativePC Mods   | Installation of the [Better Input Detection](https://www.nexusmods.com/monsterhunterworld/mods/4333) mod by AsteriskAmpersand. |
+| Hardware        | Must have the ability to maintain game at a minimum of 240fps. |
+| Software        | Must be on a Windows Operating System. |
 
-### Compatible Versions
-Monster Hunter World: Iceborne v15.20
-
-### Requirements
-1) [Better Input Detection](https://www.nexusmods.com/monsterhunterworld/mods/4333) Mod by AsteriskAmpersand. 
-2) Must have the ability to reach and maintain the game at 240fps.
-
-## Mapping Bounce Types
+## Shot Types and their Ledge Bounce Behaviors
 An ammo's bounce speed is dictated by its **Recoil** and **Shot Type** stats. The below table shows this relationship.
 
 | Bounce Speed |     Recoil     |  Shot Type  | Shot Cycle | Start-Up Delay | Reload Delay | Notes                                                                                                   |
 |:------------:|:--------------:|:-----------:|:----------:|:--------------:|:------------:|:-------------------------------------------------------------------------------------------------------:|
 |     Fast     | Very High (+4) |    Normal   |   380 ms   |      0 ms      |     0 ms     | -                                                                                                       |
 |    Medium    |    High (+3)   |    Normal   |   550 ms   |     51 ms      |     0 ms     | Start-up delay is caused by having to reposition after ledge climb for first shot to bounce.            |
-|     Slow     |    High (+3)   | Rapid-Fire  |   700 ms   |      0 ms      |    34 ms     | Only works as the Primary ammo at 300fps (max allowed framerate in game) due to first shot failing to bounce at 240 fps. Reload delay is caused by having to delay final shot in order to stop bouncing. |
+|     Slow     |    High (+3)   | Rapid-Fire  |   700 ms   |     †0 ms      |   †34 ms     | †Start-up delay only applicable at 300fps due to first shot failing to bounce at 240 fps. Reload delay only applicable at 240fps due to higher framerates preventing this type of shot from falling off ledge with a shot. |
 
 *note: Although Recoil +4 Rapid-Fire "can" bounce, it requires repositioning between shots which makes it uviable.*
 
 ## Available Guns
 
-I've handpicked the below options as the most effective ledge Light Bowguns for the different types of ammos.
+I've handpicked the below options as the most effective ledge Light Bowguns for differing types of ammos.
 
 ### Accursed Fire
 
@@ -314,12 +312,12 @@ The below section cover all the different settings that are available from the G
 ### General ⚙️
 | LBG Name | Primary Ammo | Wyvern Blast Reload |
 |:--------:|:------------:|:-------------------:|
-| The name of the LBG you will be using. Script uses this name to pull the correct bounce timings for each ammo type.| The name of the primary damaging ammo you will be using. In order to begin the LLBG loop you must have your primary ammo selected in the ammo wheel and either climb a ledge or fall off a ledge. The Primary Ammo type is also the only ammo type you should be reloading. | If checked it uses the Wyvern Blast Reload as the mechanism for propelling you backwards for reloads. This is useful because normally the script is forced to reload on the last shot regardless of if last shot procs spareshot or not, this allows the script to go for last-shot spare-shot attempts. Probably only useful in [ICE](https://github.com/AsteriskAmpersand/Ice-Stable) where an extra mod slot is available for LBG to use.
+| The name of the LBG you will be using. Script uses this name to pull the correct bounce timings for each ammo type.| The name of the primary damaging ammo you will be using. In order to begin the LLBG loop you must have your primary ammo selected in the ammo wheel and either climb a ledge or fall off a ledge. The Primary Ammo type is also the only ammo type you should be reloading. | If checked it uses the Wyvern Blast Reload as the mechanism for achieving reloads. The original intent of this option was to mitigate the issue where script was forced to reload on the last shot regardless of if the last shot procs spareshot or not, however the negative consequence of using the Wyvern Blast as a reload is that it adds an extra ~400ms ledge bounce just to reload which basically negates any of its benefits. This option is only available as of now as relic of my testing. 
 
 ### Script Controls 🕹️
 | Reload (Script) | Exit (Script) | Stop LLGB |
 |:---------------:|:-------------:|:---------:|
-| The hotkey bind to reload the LLBG script.  | The hotkey bind to terminate the LLBG script. | The hotkey bind to exit the current LLBG loop (does not stop script) |
+| The hotkey bind to reload the LLBG script.  | The hotkey bind to terminate the LLBG script. | The hotkey bind to exit the current LLBG loop (does not stop script). |
 
 ### KbM Controls ⌨️
 These are the controls the script is using to perform all the actions in the game, and as such must match your ingame Keyboard & Mouse controls. They are configured by default as my ingame defaults, but if you have different defaults (or don't want to reset your in game KbM settings) you can match them here manually. Don't put capital letters for letter presses. The craft key is intentionally left blank and should be number (1 → 8) shortcut to a in game macro to craft all your primary ammo. It can be left blank of you don't need extra primary ammo to craft.
@@ -359,9 +357,6 @@ To install, simply click [here](#).
 First set and save your settings via the gui (LLBG_settings.vbs), then run the main script (LLBG_run.vbs).
 
 *note: You must reload the script to apply saved gui changes.*
-
-## Dependencies
-Must be running on a Windows OS.
 
 ## Special Thanks
 
