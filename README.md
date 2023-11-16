@@ -299,8 +299,6 @@ Below is a hand-picked selection the most effective Ledge Light Bowguns for the 
 </tr>
 </table>
 
----
-
 <br>
 
 ## Script Settings
