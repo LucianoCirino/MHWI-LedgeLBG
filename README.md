@@ -1,12 +1,12 @@
 # Ledge Light Bowgun (LLBG) Exploit Tool
 
-This tool was designed to be used with the Light Bowgun to perform an improved version of the LLBG exploit which abuses oddities that emerge with the ledge when you crank up the framerate. 
+This tool was designed to be used with the Light Bowgun to perform the new evolution of the LLBG exploit which abuses oddities that emerge with the ledge when you crank up the framerate. 
 
 ### Premise 
-In Monster Hunter World: Iceborne, the Light Bowgun has the special ability to cancel high recoil shots with a ledge by interrupting the push-back animation with a fall. Normally this fall pushes you off the ledge, however, as you cross the framerate boundary of 240fps, sometimes you are able to fall and land immideately back ontop of the ledge. Upon landing back ontop of the ledge you get propelled forward because in Monster Hunter you land with forward momentum after landing from"bounce" from the ledge, as if you hit a wall. It turns out these bounces are completely controllable, and with the right inputs and timings really push the game's limits to the extreme.
+In Monster Hunter World: Iceborne, the Light Bowgun has the ability to cancel high recoil shots with a ledge by interrupting the recoil animation with a fall. Normally upon falling you are pushed off the ledge, however, as you cross the framerate boundary of 240fps, you gain the special ability to re-land immediately from this fall and "bounce" away from the ledge. With the right inputs and timings, this bounce can be looped indefinitely, allowing you to fire the Light Bowgun at unprecedented rates.
 
 ## Recoil, Shot Types, and their Ledge Bounce Behaviors
-Depending on your **recoil level** and **shot type**, the timing for how to can begin, maintain, and terminate the ledge bouncing will differ. The below table shows some data 
+Depending on your **recoil level** and **shot type**, the timing for how to can begin, maintain, and terminate the Ledge Light Bowgun exploit will differ. The below table displays this relationship.
 
 | Bounce Speed |     Recoil     |  Shot Type  | Shot Cycle | Start-Up Delay | Reload Delay | Notes                                                                                                   |
 |:------------:|:--------------:|:-----------:|:----------:|:--------------:|:------------:|:-------------------------------------------------------------------------------------------------------:|
@@ -14,13 +14,14 @@ Depending on your **recoil level** and **shot type**, the timing for how to can 
 |    Medium    |    High (+3)   |    Normal   |   550 ms   |     51 ms      |     0 ms     | Start-up delay is caused by having to reposition after ledge climb for first shot to bounce.            |
 |     Slow     |    High (+3)   | Rapid-Fire  |   700 ms   |     †0 ms      |   †34 ms     | †Start-up delay only applicable at 300fps due to first shot failing to bounce at 240fps. Reload delay only applicable at 240fps due to higher framerates preventing this reoil-shot type combination from being able to fall off ledge. |
 
-*note: Although Recoil +4 Rapid-Fire "can" bounce, it requires repositioning between shots which makes it uviable.*
+>note: Although Recoil +4 Rapid-Fire "can" bounce, it requires repositioning between shots which makes it uviable.
 
 <br>
 
 ## Available Ledge Light Bowguns
 
 Below is a hand-picked selection the most effective Ledge Light Bowguns for the different types of ammos.
+>note: For LLBG, you should never have equipped any Recoil or Reload stat reducing modifications on your Bowgun.
 
 ### Accursed Fire
 
@@ -334,15 +335,15 @@ For those who wish to utilize multiple ammo types, the LLBG script includes an o
 | The name of the ammo type to swap to. | The assigned hotkey to begin the scripted action.| The condition the Primary Ammo must be in order to begin the scripted action. | The number of shots to perform before executing the Finish Action.| The action to take when complete. "Return" returns you to the primary ammo type, "Next" moves you to the next index entry in the ammo script table. | 
 
 #### Ammo Script Notes:
-‣ Swapping into ammo types that don't bounce works, however, this will exit the LLBG loop which must then be manually restarded again (walking off ledge).
+> Swapping into ammo types that don't bounce works, however, this will exit the LLBG loop which must then be manually restarded again (walking off ledge).
 
-‣ Multiple entries can have the same **Queue Hotkey**. As they are called, script will cycle through the assigned entries in the indexed order of the table.  
+> Multiple entries can have the same **Queue Hotkey**. As they are called, script will cycle through the assigned entries in the indexed order of the table.  
 
-‣ A scripted ammo reaching zero is treated as equivalent to having its configured **Shot Limit** reached.
+> A scripted ammo reaching zero is treated as equivalent to having its configured **Shot Limit** reached.
 
-‣ Commands to swap into an ammo type that has no ammo will be ignored by the script. If multiple ammos are assigned a hotkey, it will skip the entry that has no ammo.
+> Commands to swap into an ammo type that has no ammo will be ignored by the script. If multiple ammos are assigned a hotkey, it will skip the entry that has no ammo.
 
-‣ During firing, the ammo wheel is cycled in order to keep it open. This is done because there is a huge startup delay for traversing through more than one entry in the ammo wheel at a time if it was previously closed ; It takes 17ms to move one entry and ~350ms to begin moving it again. Once open however, it only takes N x 17ms to traverse to any ammo type in your bag, with N representing shortest the number of swaps it takes to reach the desired ammo's destination.
+> During firing, the ammo wheel is cycled in order to keep it open. This is done because there is a huge startup delay for traversing through more than one entry in the ammo wheel at a time if it was previously closed ; It takes 17ms to move one entry and ~350ms to begin moving it again. Once open however, it only takes N x 17ms to traverse to any ammo type in your bag, with N representing shortest the number of swaps it takes to reach the desired ammo's destination.
 
 #### Example:
   *To do*
