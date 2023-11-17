@@ -80,7 +80,7 @@ Below is a hand-picked selection the most effective Ledge Light Bowguns for the 
 
 | Rarity | Base Raw |   Primary Ammo    |
 |:------:|:--------:|:-----------------:|
-|   11   |   280    |   Pierce Ammo 3   |
+|   11   |   280    | ![Pierce Ammo 3](https://img.shields.io/badge/-Pierce%20Ammo%203-blue) |
 
 </td>
 </tr>
@@ -111,7 +111,7 @@ Below is a hand-picked selection the most effective Ledge Light Bowguns for the 
 
 ### Fatalis Depths
 
-- A formidable Spread/Pierce option with unique Rapid-Fire capabilities.
+- A formidable Spread/Pierce Ammo 3 option with unique Rapid-Fire capabilities.
 
 <table>
 <tr style="vertical-align:top;">
@@ -122,9 +122,9 @@ Below is a hand-picked selection the most effective Ledge Light Bowguns for the 
 </td>
 <td>
 
-| Rarity | Base Raw |         Primary Ammo              |
-|:------:|:--------:|:---------------------------------:|
-|   12   |   285    |   Spread Ammo 3 / Pierce Ammo 3   |
+| Rarity | Base Raw | Primary Ammo |
+|:------:|:--------:|:------------:|
+|   12   |   285    | <img src="https://img.shields.io/badge/-Spread%20Ammo%203-brightgreen" alt="Spread Ammo 3"><br><img src="https://img.shields.io/badge/-Pierce%20Ammo%203-blue" alt="Pierce Ammo 3"> |
 
 </td>
 </tr>
@@ -162,9 +162,9 @@ Below is a hand-picked selection the most effective Ledge Light Bowguns for the 
 </td>
 <td>
 
-| Rarity | Base Raw |    Primary Ammo   |
-|:------:|:--------:|:-----------------:|
-|   12   |   270    |   Normal Ammo 3   |
+| Rarity | Base Raw | Primary Ammo |
+|:------:|:--------:|:------------:|
+|   12   |   270    |![Normal Ammo 3](https://img.shields.io/badge/-Normal%20Ammo%203-AA0000) |
 
 </td>
 </tr>
@@ -209,7 +209,7 @@ Below is a hand-picked selection the most effective Ledge Light Bowguns for the 
 
 | Rarity | Base Raw |   Primary Ammo    |
 |:------:|:--------:|:-----------------:|
-|   12   |   290*   |   Pierce Ammo 3   |
+|   12   |   290*   | ![Pierce Ammo 3](https://img.shields.io/badge/-Pierce%20Ammo%203-blue) |
 
 *Atk V (x4) + Pierce Capacity III
 
@@ -247,7 +247,7 @@ Below is a hand-picked selection the most effective Ledge Light Bowguns for the 
 
 | Rarity | Base Raw |   Primary Ammo    |
 |:------:|:--------:|:-----------------:|
-|   12   |   290*   |   Spread Ammo 3   |
+|   12   |   290*   | ![Spread Ammo 3](https://img.shields.io/badge/-Spread%20Ammo%203-brightgreen) |
 
 *Atk V (x4) + Spread Capacity III
 
@@ -282,9 +282,9 @@ Below is a hand-picked selection the most effective Ledge Light Bowguns for the 
 </td>
 <td>
 
-| Rarity | Base Raw |           Primary Ammo              |
-|:------:|:--------:|:-----------------------------------:|
-|   12   |   310    |    Normal Ammo 3 / Sticky Ammo 3    |
+| Rarity | Base Raw | Primary Ammo |
+|:------:|:--------:|:------------:|
+|   12   |   310    | <img src="https://img.shields.io/badge/-Normal%20Ammo%203-AA0000" alt="Normal Ammo 3"><br><img src="https://img.shields.io/badge/-Sticky%20Ammo%203-orange" alt="Sticky Ammo 3"> |
 
 </td>
 </tr>
@@ -314,7 +314,8 @@ The below section covers what all the different gui settings do.
 | Primary Ammo        | The name of the primary damaging ammo. To begin the LLBG loop, have this ammo selected and either climb a ledge or fall off one. This is also the only ammo type you should be reloading. |
 | FPS Dip Reload      | If enabled, script drops your framerate when you need to reload in order to stop ledge bouncing and and allow you to fall. This gives the script the ability to go for spare-shots on the last bullet in the magazine. Framerate dipping also gives you the ability to use rapid-fire ammo as your primary ammo by giving it a method of unsticking from the ledge when required to reload.  Currently, this option remains as a relic of my testing, leave it unchecked. |
 
->note: FPS Dip Reloads on fast and medium bounce speed ammos actually makes your last shot 51ms slower than if you assumed you needed a reload, so if you don't spare-shot on the last shot, this option is actually slower.
+>[!NOTE]
+> FPS Dip Reloads on fast and medium bounce speed ammos actually makes your last shot 51ms slower than if you assumed you needed a reload, so if you don't spare-shot on the last shot, this option is actually slower.
 
 ### 🕹️ Script Controls
 |      Option      |                   Description                         |
