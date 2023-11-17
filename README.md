@@ -10,15 +10,15 @@ In Monster Hunter World: Iceborne, the Light Bowgun has the ability to cancel hi
 ## Recoil, Shot Types, and their Ledge Bounce Behaviors
 Depending on your **recoil level** and **shot type**, the timing for how to can begin, maintain, and terminate the Ledge Light Bowgun exploit will differ. The below table displays these relationships.
 
-| Bounce Speed |     Recoil     |  Shot Type  | Shot Cycle | Start-Up Delay | Reload Delay | Notes                                                                                                   |
-|:------------:|:--------------:|:-----------:|:----------:|:--------------:|:------------:|:-------------------------------------------------------------------------------------------------------:|
-|     Fast     | Very High (+4) |    Normal   |   ~384 ms   |      0 ms      |     0 ms     | -                                                                                                       |
-|    Medium    |    High (+3)   |    Normal   |   ~517 ms   |     51 ms      |     0 ms     | Start-up delay is caused by having to reposition after ledge climb for first shot to bounce.            |
-|     Slow     |    High (+3)   | Rapid-Fire  |   ~701 ms   |     †0 ms      |   †34 ms     | †Start-up delay only applicable at 300fps due to first shot failing to bounce at 240fps. Reload delay only applicable at 240fps due to higher framerates preventing this recoil-shot type combination from being able to fall off ledge. Can be used as the primary ammo type at 300fps and if <code>FPS Dip Reload</code> is enabled |
+| Bounce Speed |     Recoil     |  Shot Type  | Shot Cycle  | Start-Up Delay | Reload Delay | Notes |
+|:------------:|:--------------:|:-----------:|:-----------:|:--------------:|:------------:|:-----:|
+|     Fast     | Very High (+4) |    Normal   |   ~384 ms   |      0 ms      |     0 ms     | -     |
+|    Medium    |    High (+3)   |    Normal   |   ~517 ms   |     51 ms      |     0 ms     | Start-up delay is caused by having to reposition after ledge climb for first shot to bounce.|
+|     Slow     |    High (+3)   | Rapid-Fire  |   ~701 ms   |     †0 ms      |   †34 ms     | †Start-up delay only applicable at 300fps due to first shot failing to bounce at 240fps. Reload delay only applicable at 240fps due to higher framerates preventing this recoil-shot type combination from being able to fall off ledge.|
 
 > [!NOTE]
 > - Although Recoil +4 Rapid-Fire "can" bounce, it requires repositioning between shots which makes it uviable. <br>
-> - Reload Delays are only applicable if not using the FPS Dip Reload setting.
+> - Reload Delays are only applicable if not using the <code>FPS Dip Reload</code> setting.
 
 <br>
 
@@ -339,24 +339,20 @@ For those who wish to utilize multiple ammo types, the LLBG script includes an o
 |:---------:|:------------:|:---------------:|:----------:|:-------------:|
 | The name of the ammo type to swap to. | The assigned hotkey to begin the scripted action.| The condition the Primary Ammo must be in order to begin the scripted action. | The number of shots to perform before executing the Finish Action.| The action to take when complete. "Return" returns you to the primary ammo type, "Next" moves you to the next index entry in the ammo script table. | 
 
-#### Ammo Script Notes:
-> Swapping into ammo types that don't bounce works, however, this will exit the LLBG loop which must then be manually restarded again (walking off ledge).
-
-> Multiple entries can have the same **Queue Hotkey**. As they are called, script will cycle through the assigned entries in the indexed order of the table.  
-
-> A scripted ammo reaching zero is treated as equivalent to having its configured **Shot Limit** reached.
-
-> Commands to swap into an ammo type that has no ammo will be ignored by the script. If multiple ammos are assigned a hotkey, it will skip the entry that has no ammo.
-
-> During firing, the ammo wheel is cycled in order to keep it open. This is done because there is a huge startup delay for traversing through more than one entry in the ammo wheel at a time if it was previously closed ; It takes 17ms to move one entry and ~350ms to begin moving it again. Once open however, it only takes N x 17ms to traverse to any ammo type in your bag, with N representing shortest the number of swaps it takes to reach the desired ammo's destination.
+> [!NOTE]
+> - Swapping into ammo types that don't bounce works, however, this will exit the LLBG loop which must then be manually restarded again (walking off ledge).
+> - Multiple entries can have the same **Queue Hotkey**. As they are called, script will cycle through the assigned entries in the indexed order of the table.  
+> - A scripted ammo reaching zero is treated as equivalent to having its configured **Shot Limit** reached.
+> - Commands to swap into an ammo type that has no ammo will be ignored by the script. If multiple ammos are assigned a hotkey, it will skip the entry that has no ammo.
+> - During LLBG, the ammo wheel is cycled in order to keep it open. This is done because there is a huge startup delay for traversing through more than one entry in the ammo wheel at a time if it was previously closed ; It takes 17ms to move one entry and ~350ms to begin moving it again. Once open however, it only takes N x 17ms to traverse to any ammo type in your bag, with N representing shortest the number of swaps it takes to reach the desired ammo's destination.
 
 ### ⌨️ KbM Controls
 These are the controls the script is using to perform all the actions in the game, and as such must match your ingame Keyboard & Mouse controls. They are configured by default as my ingame defaults, but if you have different defaults (or don't want to reset your in game KbM settings) you can match them here manually. Don't put capital letters for letter presses.
 
->note: The **craft** key should be your ingame shortcut key that crafts all your primary ammo (1 → 8). This can be left blank if not used. 
+> [!IMPORTANT]
+> The **craft** key should be your ingame shortcut key that crafts all your primary ammo (1 → 8). This can be left blank if not used. 
 
 <br>
-
 
 ## Requirements
 
@@ -366,7 +362,7 @@ These are the controls the script is using to perform all the actions in the gam
 | 2 | Must be on Monster Hunter World: Iceborne v15.20. |
 | 3 | Installation of the [Better Input Detection](https://www.nexusmods.com/monsterhunterworld/mods/4333) mod by AsteriskAmpersand. |
 | 4 | Must have the ability to maintain game at a minimum of 240fps. |
-| 5 | Must be on a Windows Operating System. |
+| 5 | Must be on a Windows Operating System for AutoHotkey to function. |
 
 
 ## Install
@@ -375,7 +371,8 @@ To install, simply click [here](#).
 ## How to run
 First set and save your settings via the gui (LLBG_settings.vbs), then run the main script (LLBG_run.vbs).
 
->note: You must reload the script to apply saved gui changes.
+> [!WARNING]
+> You must reload the script to apply saved gui changes.
 
 ## Special Thanks
 
