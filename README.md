@@ -14,9 +14,9 @@ Depending on your **recoil level** and **shot type**, the timing for how to can 
 |:------------:|:--------------:|:-----------:|:----------:|:--------------:|:------------:|:-------------------------------------------------------------------------------------------------------:|
 |     Fast     | Very High (+4) |    Normal   |   ~384 ms   |      0 ms      |     0 ms     | -                                                                                                       |
 |    Medium    |    High (+3)   |    Normal   |   ~517 ms   |     51 ms      |     0 ms     | Start-up delay is caused by having to reposition after ledge climb for first shot to bounce.            |
-|     Slow     |    High (+3)   | Rapid-Fire  |   ~701 ms   |     †0 ms      |   †34 ms     | †Start-up delay only applicable at 300fps due to first shot failing to bounce at 240fps. Reload delay only applicable at 240fps due to higher framerates preventing this recoil-shot type combination from being able to fall off ledge. Can be used as the primary ammo type at 300fps and if ![FPS Dip Reload](https://img.shields.io/badge/-FPS%20Dip%20Reload-grey) is enabled |
+|     Slow     |    High (+3)   | Rapid-Fire  |   ~701 ms   |     †0 ms      |   †34 ms     | †Start-up delay only applicable at 300fps due to first shot failing to bounce at 240fps. Reload delay only applicable at 240fps due to higher framerates preventing this recoil-shot type combination from being able to fall off ledge. Can be used as the primary ammo type at 300fps and if <code>FPS Dip Reload</code> is enabled |
 
-> Notes: <br>
+> [!NOTE]
 > - Although Recoil +4 Rapid-Fire "can" bounce, it requires repositioning between shots which makes it uviable. <br>
 > - Reload Delays are only applicable if not using the FPS Dip Reload setting.
 
@@ -24,7 +24,8 @@ Depending on your **recoil level** and **shot type**, the timing for how to can 
 
 ## Available Ledge Light Bowguns
 Below is a hand-picked selection the most effective Ledge Light Bowguns for the different types of raw ammos.
->note: For LLBG, you should never equip any bowgun mods that affect your recoil or reload stats!
+> [!IMPORTANT]
+> For LLBG, you should never equip any bowgun mods that affect your recoil or reload stats!
 
 ### Accursed Fire
 
@@ -39,9 +40,9 @@ Below is a hand-picked selection the most effective Ledge Light Bowguns for the 
 </td>
 <td>
 
-| Rarity | Base Raw |   Primary Ammo   |
-|:------:|:--------:|:----------------:|
-|   11   |   270*   |   Pierce Ammo 3  |
+| Rarity | Base Raw | Primary Ammo |
+|:------:|:--------:|:------------:|
+|   11   |   270*   | ![Pierce Ammo 3](https://img.shields.io/badge/-Pierce%20Ammo%203-blue) |
 
 *283.5 (297 in [ICE](https://github.com/AsteriskAmpersand/Ice-Stable)) with NEB 
 </td>
