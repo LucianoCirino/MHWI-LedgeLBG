@@ -7,7 +7,7 @@ In Monster Hunter World: Iceborne, the Light Bowgun has the ability to cancel hi
 
 <br>
 
-## Recoil, Shot Types, and their Ledge Bounce Behaviors
+## Recoil, Shot Types, and Ledge Bounce Behaviors
 Depending on your **recoil level** and **shot type**, the timing for how to can begin, maintain, and terminate the Ledge Light Bowgun exploit will differ. The below table displays these relationships.
 
 | Bounce Speed |     Recoil     |  Shot Type  | Shot Cycle  | Start-Up Delay | Reload Delay | Notes |
@@ -312,10 +312,11 @@ The below section covers all the currently available settings.
 |:---------------------------:|:-----------:|
 | <code>LBG_Name</code>       | The name of the LBG you will be using. The script uses this name to pull the correct bounce timings for each ammo type. |
 | <code>Primary_Ammo</code>   | The name of the primary damaging ammo. To begin the LLBG loop, have this ammo selected and either climb a ledge or fall off one. This is also the only ammo type you should be reloading. |
+| <code>Deeper_Bounces</code> | Lets go aim during the bounce in order to bounce further away from the ledge. This does not slow or speed up your LLBG. I left this in as an option just incase there might be some niche use for it, like needing to fire from further away from the ledge. Its possible too this might make LLBG more consistent, but I have honestly not noticed a difference in all of my testing.
 | <code>FPS_Dip_Reload</code> | If enabled, script drops your framerate when you need to reload in order to stop ledge bouncing and and allow you to fall. This gives the script the ability to go for spare-shots on the last bullet in the magazine. Framerate dipping also gives you the ability to use rapid-fire ammo as your primary ammo by giving it a method of unsticking from the ledge when required to reload.  Currently, this option remains as a relic of my testing, leave it unchecked. |
 
 >[!NOTE]
-> FPS Dip Reloads on fast and medium bounce speed ammos actually makes your last shot 51ms slower than if you assumed you needed a reload, so if you don't spare-shot on the last shot, this option is actually slower.
+> <code>FPS Dip Reloads</code> on fast and medium bounce speed ammos actually makes your last shot ~51ms slower than if you assumed you needed a reload. What this means is that if you don't spare-shot on the last shot, having this option enabled actually makes your LLBG shot cycle slower.
 
 ### 🕹️ Script Controls
 |            Setting           |                  Description                   |
@@ -349,14 +350,14 @@ For those who wish to utilize multiple ammo types, the LLBG script includes an o
 These are the controls the script is using to perform all the actions in the game, and as such must match your ingame Keyboard & Mouse controls. They are configured by default as my ingame defaults, but if you have different defaults (or don't want to reset your in game KbM settings) you can match them here manually. Don't put capital letters for letter presses.
 
 > [!IMPORTANT]
-> The **craft** key should be your ingame shortcut key that crafts all your primary ammo (1 → 8). This can be left blank if not used. 
+> The <code>craft</code> key should be your ingame shortcut key that crafts all your primary ammo (1 → 8). This can be left blank if not used. 
 
 <br>
 
 ## Requirements
 
-| Category        | Requirement |
-|:---------------:|:-----------:|
+| # | User Requirements |
+|:-:|:-----------:|
 | 1 | This script was designed to be used with a PlayStation controller. |
 | 2 | Must be on Monster Hunter World: Iceborne v15.20. |
 | 3 | Installation of the [Better Input Detection](https://www.nexusmods.com/monsterhunterworld/mods/4333) mod by AsteriskAmpersand. |
