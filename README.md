@@ -29,7 +29,7 @@ Below is a hand-picked selection the most effective Ledge Light Bowguns for the 
 
 ### Accursed Fire
 
-- A contender for the most powerful Pierce ledge LBG, offering fast bouncing <code>Pierce Ammo 3</code> at its highest possible base raw.
+- A contender for the most powerful Pierce ledge LBG, offering fast bouncing <code>[Pierce Ammo 3]</code> at its highest possible base raw.
 
 <table>
 <tr style="vertical-align:top;">
@@ -67,7 +67,7 @@ Below is a hand-picked selection the most effective Ledge Light Bowguns for the 
 
 ### Bazelcore
 
-- A fast bouncing <code>Pierce Ammo 3</code> alternative with a huge selection of ammo types to utilize from.
+- A fast bouncing <code>[Pierce Ammo 3]</code> alternative with a huge selection of ammo types to utilize from.
 
 <table>
 <tr style="vertical-align:top;">
@@ -111,7 +111,7 @@ Below is a hand-picked selection the most effective Ledge Light Bowguns for the 
 
 ### Fatalis Depths
 
-- A formidable Spread/Pierce Ammo 3 option with unique Rapid-Fire capabilities.
+- A formidable <code>[Spread/Pierce Ammo 3]</code> option with unique Rapid-Fire capabilities.
 
 <table>
 <tr style="vertical-align:top;">
@@ -151,7 +151,7 @@ Below is a hand-picked selection the most effective Ledge Light Bowguns for the 
 
 ### Royal Surefire Shot
 
-- A gun with an unparalleled <code>Normal Ammo 3</code> magazine size and the unique ability to utilize every cc ammo type in game.
+- A gun with an unparalleled <code>[Normal Ammo 3]</code> magazine size and the unique ability to utilize every cc ammo type in the game.
 
 <table>
 <tr style="vertical-align:top;">
@@ -196,7 +196,7 @@ Below is a hand-picked selection the most effective Ledge Light Bowguns for the 
 
 ### Safi's Aquashot
 
-- Although it ledge bounces <code>Pierce Ammo 3</code> only at medium speed, a magazine size of 5 is nothing to scoff at. 
+- Although this gun doesn't ledge bounce fast with <code>[Pierce Ammo 3]</code> , its magazine size is nothing to scoff at. 
 
 <table>
 <tr style="vertical-align:top;">
@@ -234,7 +234,7 @@ Below is a hand-picked selection the most effective Ledge Light Bowguns for the 
 
 ### Safi's Drakshot
 
-- With it's unmatched <code>Spread Ammo 3</code> magazine size, this gun is without a doubt in a class of its own. 
+- With it's unmatched <code>[Spread Ammo 3]</code> magazine size, this gun is without a doubt in a class of its own. 
 
 <table>
 <tr style="vertical-align:top;">
@@ -271,7 +271,7 @@ Below is a hand-picked selection the most effective Ledge Light Bowguns for the 
 
 ### Ten Thousand Volts
 
-- The pinnacle of base raw is also the most devastating <code>Normal Ammo 3</code> and <code>Sticky Ammo 3</code> ledge LBG in the game.  
+- The pinnacle of base raw is also the most devastating <code>[Normal Ammo 3]</code> and <code>[Sticky Ammo 3]</code> ledge LBG in the game.  
 
 <table>
 <tr style="vertical-align:top;">
@@ -305,34 +305,33 @@ Below is a hand-picked selection the most effective Ledge Light Bowguns for the 
 <br>
 
 ## Script Settings
-The below section covers what all the different gui settings do.
+The below section covers all the currently available settings.
 
 ### ⚙️ General 
-|       Option        | Description |
-|:-------------------:|:-----------:|
-| LBG Name            | The name of the LBG you will be using. The script uses this name to pull the correct bounce timings for each ammo type. |
-| Primary Ammo        | The name of the primary damaging ammo. To begin the LLBG loop, have this ammo selected and either climb a ledge or fall off one. This is also the only ammo type you should be reloading. |
-| FPS Dip Reload      | If enabled, script drops your framerate when you need to reload in order to stop ledge bouncing and and allow you to fall. This gives the script the ability to go for spare-shots on the last bullet in the magazine. Framerate dipping also gives you the ability to use rapid-fire ammo as your primary ammo by giving it a method of unsticking from the ledge when required to reload.  Currently, this option remains as a relic of my testing, leave it unchecked. |
+|          Setting            | Description |
+|:---------------------------:|:-----------:|
+| <code>LBG_Name</code>       | The name of the LBG you will be using. The script uses this name to pull the correct bounce timings for each ammo type. |
+| <code>Primary_Ammo</code>   | The name of the primary damaging ammo. To begin the LLBG loop, have this ammo selected and either climb a ledge or fall off one. This is also the only ammo type you should be reloading. |
+| <code>FPS_Dip_Reload</code> | If enabled, script drops your framerate when you need to reload in order to stop ledge bouncing and and allow you to fall. This gives the script the ability to go for spare-shots on the last bullet in the magazine. Framerate dipping also gives you the ability to use rapid-fire ammo as your primary ammo by giving it a method of unsticking from the ledge when required to reload.  Currently, this option remains as a relic of my testing, leave it unchecked. |
 
 >[!NOTE]
 > FPS Dip Reloads on fast and medium bounce speed ammos actually makes your last shot 51ms slower than if you assumed you needed a reload, so if you don't spare-shot on the last shot, this option is actually slower.
 
 ### 🕹️ Script Controls
-|      Option      |                   Description                         |
-|:----------------:|:-----------------------------------------------------:|
-| Reload (Script)  | The hotkey bind to reload the LLBG script.            |
-| Exit (Script)    | The hotkey bind to terminate the LLBG script.         |
-| Stop LLGB        | The hotkey bind to exit the current LLBG loop (does not stop script). |
+|            Setting           |                  Description                   |
+|:----------------------------:|:----------------------------------------------:|
+| <code>Reload_(Script)</code> | The hotkey bind to reload the LLBG script.     |
+| <code>Exit_(Script)</code>   | The hotkey bind to terminate the LLBG script.  |
+| <code>Stop_LLGB</code>       | The hotkey bind to exit the current LLBG loop. Currently hardcoded to be the controller's aim button.|
 
 ### 📜 Ammo Scripting
 For those who wish to utilize multiple ammo types, the LLBG script includes an optional sophisticated ammo control tool that allows you to bind PS4 buttons (hotkeys) to a set of actions to perform.
 
-#### General settings:
-|        Option        |  Description  |
-|:--------------------:|:-------------:|
-| Primary Ammo Hotkey  | The hotkey bind to automatically swap to your assigned Primary Ammo. During the LLBG loop, it can also be used to cancel script commands and return to the primary ammo. |
-| Ammo Sync Hotkey     | The hotkey bind to begin an Ammo Sync. An Ammo Sync is required to be done only once on your current ammo bag for the script to "know" the fastest path to travel to reach other ammo types. It involves the script scrolling through all your ammo types and storing their positions. |
-| Auto Ammo Sync       | If enabled, the script will automatically perform an Ammo Sync after certain events, such as when the script is first loaded or when you are loading into a quest. |
+|             Setting               |  Description  |
+|:---------------------------------:|:-------------:|
+| <code>Primary_Ammo_Hotkey</code>  | The hotkey bind to automatically swap to your assigned Primary Ammo. During the LLBG loop, it can also be used to cancel script commands and return to the primary ammo. |
+| <code>Ammo_Sync_Hotkey</code>     | The hotkey bind to begin an Ammo Sync. An Ammo Sync is required to be done only once on your current ammo bag for the script to "know" the fastest path to travel to reach other ammo types. It involves the script scrolling through all your ammo types and storing their positions. |
+| <code>Auto_Ammo_Sync</code>       | If enabled, the script will automatically perform an Ammo Sync after certain events, such as when the script is first loaded or when you are loading into a quest. |
 
 #### Table Options:
 | Ammo Name | Queue Hotkey | Start Condition | Shot Limit | Finish Action |
