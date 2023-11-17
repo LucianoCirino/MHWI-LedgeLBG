@@ -10,15 +10,17 @@ In Monster Hunter World: Iceborne, the Light Bowgun has the ability to cancel hi
 ## Recoil, Shot Types, and Ledge Bounce Behaviors
 Depending on your **recoil level** and **shot type**, the timing for how to can begin, maintain, and terminate the Ledge Light Bowgun exploit will differ. The below table displays these relationships.
 
-| Bounce Speed |     Recoil     |  Shot Type  | Shot Cycle  | Start-Up Delay | Reload Delay | Notes |
-|:------------:|:--------------:|:-----------:|:-----------:|:--------------:|:------------:|:-----:|
-|     Fast     | Very High (+4) |    Normal   |   ~384 ms   |      0 ms      |     0 ms     | -     |
-|    Medium    |    High (+3)   |    Normal   |   ~517 ms   |     51 ms      |     0 ms     | Start-up delay is caused by having to reposition after ledge climb for first shot to bounce.|
-|     Slow     |    High (+3)   | Rapid-Fire  |   ~701 ms   |     †0 ms      |   †34 ms     | †Start-up delay only applicable at 300fps due to first shot failing to bounce at 240fps. Reload delay only applicable at 240fps due to higher framerates preventing this recoil-shot type combination from being able to fall off ledge.|
+| Bounce Speed |     Recoil     |  Shot Type  | Shot Cycle  | Start-Up Delay | Reload Delay |
+|:------------:|:--------------:|:-----------:|:-----------:|:--------------:|:------------:|
+|     Fast     | Very High (+4) |    Normal   |   ~384 ms   |      0 ms      |     0 ms     |
+|    Medium    |    High (+3)   |    Normal   |   ~517 ms   |     51 ms      |     0 ms     |
+|     Slow     |    High (+3)   | Rapid-Fire  |   ~701 ms   |     †0 ms      |   †34 ms     |
 
 > [!NOTE]
-> - Although Recoil +4 Rapid-Fire "can" bounce, it requires repositioning between shots which makes it uviable. <br>
-> - Reload Delays are only applicable if not using the <code>FPS Dip Reload</code> setting.
+> - Although Recoil +4 Rapid-Fire "can" bounce, it requires repositioning between shots which makes it unviable.
+> - Reload Delays are only applicable if not using the `FPS Dip Reload` setting.
+> - The start-up delay for the Medium bounce speed is caused by having to reposition after a ledge climb for the first shot to bounce.
+> - †Start-up delay for the Slow bounce speed is only applicable at 300fps due to the first shot failing to bounce at 240fps. Reload delay is only applicable at 240fps due to higher framerates preventing this recoil-shot type combination from falling from ledge via shooting.
 
 <br>
 
