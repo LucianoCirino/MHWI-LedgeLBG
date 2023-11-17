@@ -14,15 +14,17 @@ Depending on your **recoil level** and **shot type**, the timing for how to can 
 |:------------:|:--------------:|:-----------:|:----------:|:--------------:|:------------:|:-------------------------------------------------------------------------------------------------------:|
 |     Fast     | Very High (+4) |    Normal   |   ~384 ms   |      0 ms      |     0 ms     | -                                                                                                       |
 |    Medium    |    High (+3)   |    Normal   |   ~517 ms   |     51 ms      |     0 ms     | Start-up delay is caused by having to reposition after ledge climb for first shot to bounce.            |
-|     Slow     |    High (+3)   | Rapid-Fire  |   ~701 ms   |     †0 ms      |   †34 ms     | †Start-up delay only applicable at 300fps due to first shot failing to bounce at 240fps. Reload delay only applicable at 240fps due to higher framerates preventing this recoil-shot type combination from being able to fall off ledge. |
+|     Slow     |    High (+3)   | Rapid-Fire  |   ~701 ms   |     †0 ms      |   †34 ms     | †Start-up delay only applicable at 300fps due to first shot failing to bounce at 240fps. Reload delay only applicable at 240fps due to higher framerates preventing this recoil-shot type combination from being able to fall off ledge. Can be used as the primary ammo type at 300fps and if ![FPS Dip Reload](https://img.shields.io/badge/-FPS%20Dip%20Reload-grey) is enabled |
 
->note: Although Recoil +4 Rapid-Fire "can" bounce, it requires repositioning between shots which makes it uviable.
+> Notes: <br>
+> - Although Recoil +4 Rapid-Fire "can" bounce, it requires repositioning between shots which makes it uviable. <br>
+> - Reload Delays are only applicable if not using the FPS Dip Reload setting.
 
 <br>
 
 ## Available Ledge Light Bowguns
 Below is a hand-picked selection the most effective Ledge Light Bowguns for the different types of raw ammos.
->note: For LLBG, you should never equip any custom mods that affect your recoil or reload stats!
+>note: For LLBG, you should never equip any bowgun mods that affect your recoil or reload stats!
 
 ### Accursed Fire
 
@@ -309,7 +311,9 @@ The below section covers what all the different gui settings do.
 |:-------------------:|:-----------:|
 | LBG Name            | The name of the LBG you will be using. The script uses this name to pull the correct bounce timings for each ammo type. |
 | Primary Ammo        | The name of the primary damaging ammo. To begin the LLBG loop, have this ammo selected and either climb a ledge or fall off one. This is also the only ammo type you should be reloading. |
-| Wyvern Blast Reload | If enabled, the script uses the Wyvern Blast custom mod for performing reloads. This option was originally added as a way to mitigate having to always go for a reload when 1 shot remains. Unfortunetely this comes at the cost of an extra bounce before each reload which negates any of its benefits. Currently, this option remains as a relic of my testing, leave it unchecked. |
+| FPS Dip Reload      | If enabled, script drops your framerate when you need to reload in order to stop ledge bouncing and and allow you to fall. This gives the script the ability to go for spare-shots on the last bullet in the magazine. Framerate dipping also gives you the ability to use rapid-fire ammo as your primary ammo by giving it a method of unsticking from the ledge when required to reload.  Currently, this option remains as a relic of my testing, leave it unchecked. |
+
+>note: FPS Dip Reloads on fast and medium bounce speed ammos actually makes your last shot 51ms slower than if you assumed you needed a reload, so if you don't spare-shot on the last shot, this option is actually slower.
 
 ### 🕹️ Script Controls
 |      Option      |                   Description                         |
