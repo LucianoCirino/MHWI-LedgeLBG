@@ -307,7 +307,7 @@ Below is a hand-picked selection the most effective Ledge Light Bowguns for the 
 <br>
 
 ## Script Settings
-The below section covers all the currently available settings.
+The below section covers all the tool's settings.
 
 ### ⚙️ General 
 |          Setting            | Description |
