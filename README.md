@@ -355,7 +355,7 @@ These are the controls the script is using to perform all the actions in the gam
 > Don't put capital letters. For example, "W" should be "w".
 
 > [!IMPORTANT]
-> The <code>craft</code> key should be your in-game shortcut key that crafts all your primary ammo (1 → 8). This can be left blank if not used.
+> The <code>craft</code> key should be your in-game shortcut key that crafts all your primary ammo. This can be left blank if not used.
 
 <br>
 
