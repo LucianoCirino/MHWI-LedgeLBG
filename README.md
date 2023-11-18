@@ -18,7 +18,7 @@ Depending on your **recoil level** and **shot type**, the timing for how to can 
 
 > [!NOTE]
 > - Although Recoil +4 Rapid-Fire "can" bounce, it requires repositioning between shots which makes it unviable.
-> - Reload Delays are only applicable if not using the `FPS Dip Reload` setting.
+> - Reload Delays are only applicable if not using the <code>FPS_Dip_Reload</code> setting.
 > - The start-up delay for the Medium bounce speed is caused by having to reposition after a ledge climb for the first shot to bounce.
 > - †Start-up delay for the Slow bounce speed is only applicable at 300fps due to the first shot failing to bounce at 240fps. Reload delay is only applicable at 240fps due to higher framerates preventing this recoil-shot type combination from falling from ledge via shooting.
 
@@ -346,10 +346,13 @@ For those who wish to utilize multiple ammo types, the LLBG script includes an o
 > - Multiple entries can have the same **Queue Hotkey**. As they are called, script will cycle through the assigned entries in the indexed order of the table.  
 > - A scripted ammo reaching zero is treated as equivalent to having its configured **Shot Limit** reached.
 > - Commands to swap into an ammo type that has no ammo will be ignored by the script. If multiple ammos are assigned a hotkey, it will skip the entry that has no ammo.
-> - During LLBG, the ammo wheel is cycled in order to keep it open. This is done because there is a huge startup delay for traversing through more than one entry in the ammo wheel at a time if it was previously closed ; It takes 17ms to move one entry and ~350ms to begin moving it again. Once open however, it only takes N x 17ms to traverse to any ammo type in your bag, with N representing shortest the number of swaps it takes to reach the desired ammo's destination.
+> - During LLBG, the ammo wheel is cycled because there is a huge startup delay for traversing through more than one entry in the ammo wheel at a time if it was previously closed ; It takes 17ms to move one entry and ~350ms to begin moving it again. Once open however, it only takes N x 17ms to traverse to any ammo type in the ammo wheel, with N representing shortest the number of swaps it takes to reach the destination ammo type.
 
 ### ⌨️ KbM Controls
-These are the controls the script is using to perform all the actions in the game, and as such must match your ingame Keyboard & Mouse controls. They are configured by default as my ingame defaults, but if you have different defaults (or don't want to reset your in game KbM settings) you can match them here manually. Don't put capital letters for letter presses.
+These are the controls the script is using to perform all the actions in the game, and as such must match your ingame keyboard & mouse controls. They are configured by default as my ingame defaults.
+
+> [!NOTE]
+> Don't put capital letters for letters for the keyboard letters. For example, "W" should be "w".
 
 > [!IMPORTANT]
 > The <code>craft</code> key should be your ingame shortcut key that crafts all your primary ammo (1 → 8). This can be left blank if not used. 
