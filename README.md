@@ -352,10 +352,10 @@ For those who wish to utilize multiple ammo types, the LLBG script includes an o
 These are the controls the script is using to perform all the actions in the game, and as such must match your ingame keyboard & mouse controls. They are configured by default as my ingame defaults.
 
 > [!NOTE]
-> Don't put capital letters for letters for the keyboard letters. For example, "W" should be "w".
+> Don't put capital letters. For example, "W" should be "w".
 
 > [!IMPORTANT]
-> The <code>craft</code> key should be your ingame shortcut key that crafts all your primary ammo (1 → 8). This can be left blank if not used. 
+> The <code>craft</code> key should be your in-game shortcut key that crafts all your primary ammo (1 → 8). This can be left blank if not used.
 
 <br>
 
