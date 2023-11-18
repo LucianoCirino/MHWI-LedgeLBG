@@ -22,12 +22,13 @@ Depending on your **recoil level** and **shot type**, the timing for how to can 
 > - The start-up delay for the Medium bounce speed is caused by having to reposition after a ledge climb for the first shot to bounce.
 > - †Start-up delay for the Slow bounce speed is only applicable at 300fps due to the first shot failing to bounce at 240fps. Reload delay is only applicable at 240fps due to higher framerates preventing this recoil-shot type combination from falling from ledge via shooting.
 
+> [!IMPORTANT]
+> For LLBG, you should never equip any bowgun mods that affect your recoil or reload stats!
+
 <br>
 
 ## Available Ledge Light Bowguns
-Below is a hand-picked selection the most effective Ledge Light Bowguns for the different types of raw ammos.
-> [!IMPORTANT]
-> For LLBG, you should never equip any bowgun mods that affect your recoil or reload stats!
+Below is a hand-picked selection of the most effective Ledge Light Bowguns for the different raw ammo types.
 
 ### Accursed Fire
 
@@ -315,7 +316,7 @@ The below section covers all the tool's settings.
 | <code>LBG_Name</code>       | The name of the LBG you will be using. The script uses this name to pull the correct bounce timings for each ammo type. |
 | <code>Primary_Ammo</code>   | The name of the primary damaging ammo. To begin the LLBG loop, have this ammo selected and either climb a ledge or fall off one. This is also the only ammo type you should be reloading. |
 | <code>Deeper_Bounces</code> | Lets go aim during the bounce in order to bounce further away from the ledge. This does not slow or speed up your LLBG. I left this in as an option just incase there might be some niche use for it, like needing to fire from further away from the ledge. It is possible too this might make LLBG more or less consistent, but that is all just speculation from my end.
-| <code>FPS_Dip_Reload</code> | If enabled, script drops your framerate when you need to reload in order to stop ledge bouncing and and allow you to fall. This gives the script the ability to go for spare-shots on the last bullet in the magazine. Framerate dipping also gives you the ability to use rapid-fire ammo as your primary ammo by giving it a method of unsticking from the ledge when required to reload.  Currently, this option remains as a relic of my testing, leave it unchecked. |
+| <code>FPS_Dip_Reload</code> | If enabled, script drops your framerate when you need to reload in order to stop ledge bouncing and and allow you to fall. This gives the script the ability to go for spare-shots on the last bullet in the magazine. Framerate dipping also gives you the ability to use rapid-fire ammo as your primary ammo by giving it a method of unsticking from the ledge when required to reload. This option is a bit too much on the cheat side due to it controlling something that is not possible by a player during gameplay, but I will leave that moral decision up to the user of the tool.  |
 
 >[!NOTE]
 > <code>FPS Dip Reloads</code> on fast and medium bounce speed ammos actually makes your last shot ~51ms slower than if you assumed you needed a reload. What this means is that if you don't spare-shot on the last shot, having this option enabled actually makes your LLBG shot cycle slower.
@@ -346,7 +347,7 @@ For those who wish to utilize multiple ammo types, the LLBG script includes an o
 > - Multiple entries can have the same **Queue Hotkey**. As they are called, script will cycle through the assigned entries in the indexed order of the table.  
 > - A scripted ammo reaching zero is treated as equivalent to having its configured **Shot Limit** reached.
 > - Commands to swap into an ammo type that has no ammo will be ignored by the script. If multiple ammos are assigned a hotkey, it will skip the entry that has no ammo.
-> - During LLBG, the ammo wheel is cycled because there is a huge startup delay for traversing through more than one entry in the ammo wheel at a time if it was previously closed ; It takes 17ms to move one entry and ~350ms to begin moving it again. Once open however, it only takes N x 17ms to traverse to any ammo type in the ammo wheel, with N representing shortest the number of swaps it takes to reach the destination ammo type.
+> - The ammo selection wheel employs a cycling mechanism to mitigate the significant initial delay experienced when navigating through multiple entries in succession. This delay occurs only if the ammo wheel was not already active; the initial action to start traversing the wheel incurs approximately 350ms of latency. However, once traversal has commenced, moving to each subsequent entry requires a mere 17ms. Therefore, to reach any given type of ammo efficiently, the wheel is kept open, allowing for a rapid traversal at a consistent rate of 17ms per entry. The total time to arrive at the desired ammunition type is calculated as *N*×17ms, where *N* is the minimum number of moves required to access the target ammo type within the wheel.
 
 ### ⌨️ KbM Controls
 These are the controls the script is using to perform all the actions in the game, and as such must match your ingame keyboard & mouse controls. They are configured by default as my ingame defaults.
