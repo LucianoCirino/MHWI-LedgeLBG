@@ -365,22 +365,18 @@ These are the controls the script is using to perform all the actions in the gam
 ## Requirements
 
 | # | User Requirements |
-|:-:|:-----------:|
-| 1 | This script was designed to be used with a PlayStation controller. |
-| 2 | Must be on Monster Hunter World: Iceborne v15.20. |
+|:-:|:-----------------:|
+| 1 | Script was designed to be used with a PlayStation controller. However, it is probably only required for the Ammo Script. |
+| 2 | Monster Hunter World: Iceborne versions 15.21 or 15.20. |
 | 3 | Installation of the [Better Input Detection](https://www.nexusmods.com/monsterhunterworld/mods/4333) mod by AsteriskAmpersand. |
-| 4 | Must have the ability to maintain game at a minimum of 240fps. |
-| 5 | Must be on a Windows Operating System for AutoHotkey to function. |
+| 4 | The necessary hardware to run the game at a minimum of 240fps. |
+| 5 | Must be on a Windows Operating System (AutoHotkey requirement). |
 
-
-## Install
-To install, simply click [here](#).
+## Download Link
+To download, simply click [here](#).
 
 ## How to run
-First set and save your settings via the gui (LLBG_settings.vbs), then run the main script (LLBG_run.vbs).
-
-> [!WARNING]
-> You must reload the script to apply saved gui changes.
+Open the gui via the the **LLBG.exe** executable, set and save your settings, then click *Run* .
 
 ## Special Thanks
 
