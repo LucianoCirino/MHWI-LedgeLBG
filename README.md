@@ -362,7 +362,7 @@ These are the controls the script is using to perform all the actions in the gam
 
 <br>
 
-## Requirements
+# Requirements
 
 | # | User Requirements |
 |:-:|:-----------------:|
@@ -372,15 +372,14 @@ These are the controls the script is using to perform all the actions in the gam
 | 4 | The necessary hardware to run the game at a minimum of 240fps. |
 | 5 | Must be on a Windows Operating System (AutoHotkey requirement). |
 
-## Download Link
-To download, simply click [here](#).
+# Download Link
+To download the Ledge Light Bowgun (LLBG) Exploit Tool, simply click *[here](#)*.
 
-## How to run
-Open the gui via the the **LLBG.exe** executable, set and save your settings, then click *Run* .
+<br>
 
-## Special Thanks
+# 🌟 Special Thanks
 
-- **[Moonbunnie](https://github.com/MoonBunnie)**: Deep gratitude for the essential memory pointers and foundational LLBG research. Your work on the original LLBG script heavily inspired the structure of this project.
+## [Moonbunnie](https://github.com/MoonBunnie)
+For his invaluable contribution of memory pointers & research vital to the script's conjuration. He was the architect behind the the original LLBG scripts, which heavely influenced this projects design.
 
-- **[AsteriskAmpersand](https://github.com/AsteriskAmpersand)**: Immense thanks for the comprehensive suite of mods and tools that were instrumental in bringing this project to fruition.
 
