@@ -384,3 +384,7 @@ First set and save your settings via the gui (LLBG_settings.vbs), then run the m
 
 ## Special Thanks
 
+- **[Moonbunnie](https://github.com/MoonBunnie)**: Deep gratitude for the essential memory pointers and foundational LLBG research. Your work on the original LLBG script heavily inspired the structure of this project.
+
+- **[AsteriskAmpersand](https://github.com/AsteriskAmpersand)**: Immense thanks for the comprehensive suite of mods and tools that were instrumental in bringing this project to fruition.
+
