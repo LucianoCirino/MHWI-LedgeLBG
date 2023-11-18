@@ -38,7 +38,7 @@ Below is a hand-picked selection of the most effective Ledge Light Bowguns for t
 <tr style="vertical-align:top;">
 <td>
 
-![image](https://github.com/LucianoCirino/MHWI-LedgeBounceLBG/assets/112517630/2d6b86f8-f94d-4b2a-ae0d-6133c8ea551f)
+[![image](https://github.com/LucianoCirino/MHWI-LedgeBounceLBG/assets/112517630/2d6b86f8-f94d-4b2a-ae0d-6133c8ea551f)](https://mhworld.kiranico.com/en/weapons/75t6Ah3O/accursed-fire)
 
 </td>
 <td>
@@ -76,7 +76,7 @@ Below is a hand-picked selection of the most effective Ledge Light Bowguns for t
 <tr style="vertical-align:top;">
 <td>
 
-![BAZELCORE](https://github.com/LucianoCirino/MHWI_LLBG/assets/112517630/0e60fb0d-aa86-43b7-a443-24682e8aa738)
+[![BAZELCORE](https://github.com/LucianoCirino/MHWI_LLBG/assets/112517630/0e60fb0d-aa86-43b7-a443-24682e8aa738)](https://mhworld.kiranico.com/en/weapons/XEtbfr6/bazelcore)
 
 </td>
 <td>
@@ -120,7 +120,7 @@ Below is a hand-picked selection of the most effective Ledge Light Bowguns for t
 <tr style="vertical-align:top;">
 <td>
 
-![FATALIS DEPTHS](https://github.com/LucianoCirino/MHWI_LLBG/assets/112517630/586ef26a-0057-47cd-9bac-7503205301e7)
+[![FATALIS DEPTHS](https://github.com/LucianoCirino/MHWI_LLBG/assets/112517630/586ef26a-0057-47cd-9bac-7503205301e7)](https://mhworld.kiranico.com/en/weapons/G6tqDfMy/fatalis-depths)
 
 </td>
 <td>
@@ -160,7 +160,7 @@ Below is a hand-picked selection of the most effective Ledge Light Bowguns for t
 <tr style="vertical-align:top;">
 <td>
 
-![ROYAL SUREFIRE SHOT](https://github.com/LucianoCirino/MHWI_LLBG/assets/112517630/cd2c631e-6b84-447c-bbb8-04948fda7797)
+[![ROYAL SUREFIRE SHOT](https://github.com/LucianoCirino/MHWI_LLBG/assets/112517630/cd2c631e-6b84-447c-bbb8-04948fda7797)](https://mhworld.kiranico.com/en/weapons/v8tqOHw3/royal-surefire-shot)
 
 </td>
 <td>
@@ -205,7 +205,7 @@ Below is a hand-picked selection of the most effective Ledge Light Bowguns for t
 <tr style="vertical-align:top;">
 <td>
 
-![SAFI'S AQUASHOT](https://github.com/LucianoCirino/MHWI_LLBG/assets/112517630/77385904-bebb-4949-8659-c817352130c7)
+[![SAFI'S AQUASHOT](https://github.com/LucianoCirino/MHWI_LLBG/assets/112517630/77385904-bebb-4949-8659-c817352130c7)](https://mhworld.kiranico.com/en/weapons/rEt9Eir2/safis-aquashot)
 
 </td>
 <td>
@@ -243,7 +243,7 @@ Below is a hand-picked selection of the most effective Ledge Light Bowguns for t
 <tr style="vertical-align:top;">
 <td>
 
-![SAFI'S DRAKSHOT](https://github.com/LucianoCirino/MHWI_LLBG/assets/112517630/7bb119f6-8984-4890-a4ec-ab44c0cbff53)
+[![SAFI'S DRAKSHOT](https://github.com/LucianoCirino/MHWI_LLBG/assets/112517630/7bb119f6-8984-4890-a4ec-ab44c0cbff53)](https://mhworld.kiranico.com/en/weapons/75t6JC3l/safis-drakshot)
 
 </td>
 <td>
@@ -280,7 +280,7 @@ Below is a hand-picked selection of the most effective Ledge Light Bowguns for t
 <tr style="vertical-align:top;">
 <td>
 
-![TEN THOUSAND VOLTS](https://github.com/LucianoCirino/MHWI_LLBG/assets/112517630/14fcec9d-a255-445b-8084-ecf2d9d7e980)
+[![TEN THOUSAND VOLTS](https://github.com/LucianoCirino/MHWI_LLBG/assets/112517630/14fcec9d-a255-445b-8084-ecf2d9d7e980)](https://mhworld.kiranico.com/en/weapons/32tzwi78/ten-thousand-volts)
 
 </td>
 <td>
