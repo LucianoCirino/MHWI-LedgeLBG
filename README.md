@@ -322,11 +322,11 @@ The below section covers all the tool's settings.
 > Enabling <code>FPS_Dip_Reload</code> on fast or medium bounce speed ammos actually makes your last shot ~51ms slower than if you assumed you needed a reload. What this means is that if you don't spare-shot on the last shot, having this option enabled actually makes your LLBG slower.
 
 ### 🕹️ Script Controls
-|            Setting           |                  Description                   |
-|:----------------------------:|:----------------------------------------------:|
-| <code>Reload_(Script)</code> | The hotkey bind to reload the LLBG script.     |
-| <code>Exit_(Script)</code>   | The hotkey bind to terminate the LLBG script.  |
-| <code>Stop_LLGB</code>       | The hotkey bind to exit the current LLBG loop. Currently hardcoded to be the controller's aim button.|
+|            Setting         |                  Description                   |
+|:--------------------------:|:----------------------------------------------:|
+| <code>Reload_Script</code> | The hotkey bind to reload the LLBG script.     |
+| <code>Stop_Script</code>   | The hotkey bind to terminate the LLBG script.  |
+| <code>Exit_LLGB</code>     | The hotkey bind to exit the current LLBG loop. Currently hardcoded to the controller's aim button (Left Trigger/Joy7).|
 
 ### 📜 Ammo Scripting
 For those who wish to utilize multiple ammo types, the LLBG script includes an optional sophisticated ammo control tool that allows you to bind PS4 buttons (hotkeys) to a set of actions to perform.
@@ -343,10 +343,12 @@ For those who wish to utilize multiple ammo types, the LLBG script includes an o
 | The name of the ammo type to swap to. | The assigned hotkey to begin the scripted action.| The condition the Primary Ammo must be in order to begin the scripted action. | The number of shots to perform before executing the Finish Action.| The action to take when complete. "Return" returns you to the primary ammo type, "Next" moves you to the next index entry in the ammo script table. | 
 
 > [!NOTE]
-> - Swapping into ammo types that don't bounce works, however, this will exit the LLBG loop which must then be manually restarded again (walking off ledge).
-> - Multiple entries can have the same **Queue Hotkey**. As they are called, script will cycle through the assigned entries in the indexed order of the table.  
-> - A scripted ammo reaching zero is treated as equivalent to having its configured **Shot Limit** reached.
-> - Commands to swap into an ammo type that has no ammo will be ignored by the script. If multiple ammos are assigned a hotkey, it will skip the entry that has no ammo.
+> - Swapping to ammo types that do not bounce is possible. However, doing so will exit the Light Bowgun (LLBG) loop, which will then require a manual restart (e.g., by walking off a ledge with the primary ammo selected).
+> - It is allowed for multiple entries to share the same **Queue Hotkey**. When activated, the script will proceed through these entries in the order they are indexed in the table.
+> - When a scripted ammo type's count reaches zero, it is treated as if its configured **Shot Limit** has been reached.
+> - Commands to switch to an ammo type that have no ammo will be ignored by the script. For hotkeys assigned to multiple ammo types, the script will skip over the type that is out of ammo and move on to the next one.
+
+> [!IMPORTANT]
 > - The ammo selection wheel employs a cycling mechanism to mitigate the significant initial delay experienced when navigating through multiple entries in succession. This delay occurs only if the ammo wheel was not already active; the initial action to start traversing the wheel incurs approximately 350ms of latency. However, once traversal has commenced, moving to each subsequent entry requires a mere 17ms. Therefore, to reach any given type of ammo efficiently, the wheel is kept open, allowing for a rapid traversal at a consistent rate of 17ms per entry. The total time to arrive at the desired ammunition type is calculated as *N*×17ms, where *N* is the minimum number of moves required to access the target ammo type within the wheel. For these reasons, please refrain from calling these ammo scripts until the ammo wheel has fully opened and begun cycling.
 
 ### ⌨️ KbM Controls
