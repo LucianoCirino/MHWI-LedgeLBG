@@ -319,7 +319,7 @@ The below section covers all the tool's settings.
 | <code>FPS_Dip_Reload</code> | If enabled, script drops your framerate when you need to reload in order to stop ledge bouncing and and allow you to fall. This gives the script the ability to go for spare-shots on the last bullet in the magazine. Framerate dipping also gives you the ability to use rapid-fire ammo as your primary ammo by giving it a method of unsticking from the ledge when required to reload. This option is a bit too much on the cheat side due to it controlling something that is not possible by a player during gameplay, but I will leave that moral decision up to the user of the tool.  |
 
 >[!NOTE]
-> <code>FPS Dip Reloads</code> on fast and medium bounce speed ammos actually makes your last shot ~51ms slower than if you assumed you needed a reload. What this means is that if you don't spare-shot on the last shot, having this option enabled actually makes your LLBG shot cycle slower.
+> Enabling <code>FPS_Dip_Reload</code> on fast or medium bounce speed ammos actually makes your last shot ~51ms slower than if you assumed you needed a reload. What this means is that if you don't spare-shot on the last shot, having this option enabled actually makes your LLBG slower.
 
 ### 🕹️ Script Controls
 |            Setting           |                  Description                   |
