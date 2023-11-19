@@ -352,9 +352,9 @@ LLBG() {
                      case 72:
                         QPCSleep(117)
                      case 73:
-                        QPCSleep(34)
+                        QPCSleep(17)
                      case 74:
-                        QPCSleep(351)
+                        QPCSleep(317)
                   }
                   SetFPS(60)
                }
