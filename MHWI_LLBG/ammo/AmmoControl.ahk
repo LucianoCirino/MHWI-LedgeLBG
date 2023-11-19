@@ -170,12 +170,10 @@ AmmoCycle(mode:="Down"){
    ;TimedPulse([key1stDirection, key2ndDirection], 17, OffDelay:=17)
    
    TimedPulse(key1stDirection, 17, OffDelay:=17)
-   TimedPulse(key2ndDirection, 17)
+   TimedPulse(key2ndDirection, 17, OffDelay:=17)
 
    if !WaitForAmmoSelect(currentType, 451)
       return
-
-   QPCSleep(17)
 
    ;Tooltip(QPC()-CycleTime) ; Debugging
 
