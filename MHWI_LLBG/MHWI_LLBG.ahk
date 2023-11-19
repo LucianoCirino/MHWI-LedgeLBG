@@ -268,7 +268,7 @@ LLBG() {
 
             timeInState := QPC() - currentStateStartTime
 
-            if ((timeInState > 17)){
+            if ((timeInState > 34)){
                if (GetAmmoType()=GetAmmoID(PRIMARY_AMMO)){
                   SendKey([keyForward, keyReload])
                   AMMO_SCRIPT_Q := 0
