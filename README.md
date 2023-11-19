@@ -38,7 +38,7 @@ Below is a hand-picked selection of the most effective Ledge Light Bowguns for t
 <tr style="vertical-align:top;">
 <td>
 
-[![image](https://github.com/LucianoCirino/MHWI-LedgeBounceLBG/assets/112517630/2d6b86f8-f94d-4b2a-ae0d-6133c8ea551f)](https://cdn.kiranico.net/file/kiranico/mhworld-web/images/wp/icon/lbg/75t6Ah3O.png)
+![ACCURSED FIRE](https://cdn.kiranico.net/file/kiranico/mhworld-web/images/wp/icon/lbg/75t6Ah3O.png)
 
 </td>
 <td>
@@ -76,7 +76,7 @@ Below is a hand-picked selection of the most effective Ledge Light Bowguns for t
 <tr style="vertical-align:top;">
 <td>
 
-[![BAZELCORE](https://github.com/LucianoCirino/MHWI_LLBG/assets/112517630/0e60fb0d-aa86-43b7-a443-24682e8aa738)](https://mhworld.kiranico.com/en/weapons/XEtbfr6/bazelcore)
+[![BAZELCORE](https://cdn.kiranico.net/file/kiranico/mhworld-web/images/wp/icon/lbg/75t6Ah3O.png)](https://mhworld.kiranico.com/en/weapons/XEtbfr6/bazelcore)
 
 </td>
 <td>
