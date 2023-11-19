@@ -1,6 +1,7 @@
 @echo off
 REM Run PyInstaller (requires pyinstaller to be installed)
-pyinstaller --noconfirm --onefile --noconsole --icon=LBG.ico gui.py
+REM Include the path to UPX using the --upx-dir option
+pyinstaller --noconfirm --onefile --noconsole --icon=LBG.ico --upx-dir=%~dp0 gui.py
 
 REM Rename and move the executable up two directories
 move /Y ".\dist\gui.exe" "..\..\LLBG.exe"
