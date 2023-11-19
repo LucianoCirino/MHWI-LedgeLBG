@@ -377,9 +377,5 @@ To download the Ledge Light Bowgun (LLBG) Exploit Tool, simply click *[here](#)*
 
 <br>
 
-# 🌟 Special Thanks
-
-## [Moonbunnie](https://github.com/MoonBunnie)
-For his invaluable contribution of memory pointers & research vital to the script's conjuration. He was the architect behind the the original LLBG scripts, which heavely influenced this projects design.
-
-
+## 🌟 Special Thanks to [Moonbunnie](https://github.com/MoonBunnie)
+For his invaluable contribution of memory pointers & research vital to the script's conjuration. He was also the architect behind the original LLBG scripts, which profoundly influenced this project's design.
