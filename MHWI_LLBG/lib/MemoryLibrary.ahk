@@ -93,8 +93,10 @@ for ammoName, ammoId in ammoNameToID {
 
 ;; Return an ammo ID given a string
 GetAmmoID(name) {
-    value := ammoNameToID[name]
-    return (value != "") ? value : -1
+    if ammoNameToID.Has(name)
+        return ammoNameToID[name]
+    else
+        return -1
 }
 
 ;; Return the ammo name given an ID
