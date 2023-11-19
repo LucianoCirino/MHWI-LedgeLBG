@@ -372,10 +372,17 @@ These are the controls the script is using to perform all the actions in the gam
 | 4 | The necessary hardware to run the game at a minimum of 240fps. |
 | 5 | Must be on a Windows Operating System (AutoHotkey requirement). |
 
-# Download Link
+# Download
 To download the Ledge Light Bowgun (LLBG) Exploit Tool, simply click *[here](#)*.
+
+# How to Run
+To open the GUI, simply run the "LLBG.exe". You can run and stop the script from this window.
+
+> [!WARNING]
+> Closing the GUI window stops the AutoHotkey script.
 
 <br>
 
-## 🌟 Special Thanks to [Moonbunnie](https://github.com/MoonBunnie)
-For his invaluable contribution of memory pointers & research vital to the script's conjuration. He was also the architect behind the original LLBG scripts, which profoundly influenced this project's design.
+## 🌟 Special Thanks
+I would like to thank [Moonbunnie](https://github.com/MoonBunnie) for his invaluable contribution of memory pointers & research vital to the script's conjuration.
+He was also the architect behind the original LLBG scripts, which profoundly influenced this project's design.
