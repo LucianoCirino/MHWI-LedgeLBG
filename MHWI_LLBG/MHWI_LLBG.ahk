@@ -66,6 +66,7 @@ LLBG() {
    currentStateStartTime := 0
    WindowInFocus()
    AutoAmmoSync()
+   FPS := GetFPS()
 
    init() {
       if inLOOP{
@@ -79,14 +80,14 @@ LLBG() {
 
    resetFPS() {
       if FPS_DIP_RELOAD
-         SetFPS(300)
+         SetFPS(FPS)
    }
 
    ; Define timeouts for different states
    StateDurationLimit(state) {
       return  (state = 13) ? 251 ;Air Melee
             : (state = 18) ? 151  ;Rolling [U]
-            : (state = 23) ? 151  ;Falling [U]
+            : (state = 23) ? 184  ;Falling [U]
             : (state = 25) ? 201  ;Land {Nt} [U]
             : (state = 27) ? 201  ;Land {Mv} [U]
             : (state = 29) ? 251  ;Land from Air Melee
@@ -128,6 +129,7 @@ LLBG() {
 
       ;Memory Read character state
       currentState := GetActionID()
+      ;Tooltip(currentState)
 
       ;Capture the change in state
       if (currentState != LastState){
@@ -388,24 +390,11 @@ LLBG() {
             }
 
          ;____________________________________
-         case 313:	;;Quest Start Walk
-
+         case 313, 314, 319:	;;Quest Start Walk (313)
+                              ;;Quest Start Bird Drop (314)
+                              ;;Quest Start Drunk Bird (Animation starts at 318 but on 319 you can scroll items)
             if stateChanged{
-               ReScanPtrs()
-               AutoAmmoSync()
-             }
-
-         ;____________________________________
-         case 314:	;;Quest Start Bird Drop
-
-             if stateChanged
-                ReScanPtrs()
-
-         ;____________________________________
-         case 319:	;;Quest Start Drunk Bird (Animation starts at 318 but on 319 you can scroll items)
-
-            if stateChanged{
-               ReScanPtrs()
+               Sleep(701)
                AutoAmmoSync()
              }
 
