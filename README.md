@@ -378,6 +378,8 @@ To download the Ledge Light Bowgun (LLBG) Exploit Tool, simply click *[here](htt
 # How to Run
 To open the GUI, simply run the "LLBG.exe". You can run and stop the script from this window.
 
+<img src="https://github.com/LucianoCirino/MHWI-LedgeLBG/blob/main/MHWI_LLBG/gui/gui.png" width="500">
+
 > [!WARNING]
 > Closing the GUI window stops the AutoHotkey script.
 
