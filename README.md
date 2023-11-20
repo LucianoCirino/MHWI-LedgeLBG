@@ -12,7 +12,7 @@ In Monster Hunter World: Iceborne, the Light Bowgun has the ability to cancel hi
 <br>
 
 <details>
-  <summary>🎞️ View LBG Recoil Effects on Ledge at 60fps & 240fps</summary>
+  <summary>🎞️ View LBG Recoil Effects on Ledge at 60fps vs 240fps</summary>
   <p align="center">
     <img src="https://github.com/LucianoCirino/Media/blob/main/MHWI-LedgeLBG/LBGs/60fps_ledge_LBG.gif" width="250" />
     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
