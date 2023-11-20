@@ -4,10 +4,10 @@
 
 [LLBG_.webm](https://github.com/LucianoCirino/MHWI-LedgeLBG/assets/112517630/6eb53a33-dde9-4345-8e35-aa9b659285e3)
 
-This tool was designed to be used with the Light Bowgun to perform the latest iteration of the LLBG exploit which abuses ledge oddities that emerge when you crank up the framerate. 
+This tool was designed to perform the latest iteration of the Ledge Light Bowgun (LLBG) exploit which now abuses ledge oddities that emerge when you crank up the game's framerate. 
 
 ### Premise 
-In Monster Hunter World: Iceborne, the Light Bowgun has the ability to cancel high recoil shots with a ledge by interrupting the recoil animation with a fall. Normally upon falling you are pushed off the ledge, however, as you cross the framerate boundary of 240fps, you gain the special ability to re-land immediately from this fall and "bounce" away from the ledge. With the right inputs and timings, this bounce can be looped indefinitely, allowing you to fire your Light Bowgun at unprecedented rates.
+In Monster Hunter World: Iceborne, the Light Bowgun has the ability to cancel high recoil shots with a ledge by interrupting the recoil animation with a fall. Normally upon falling you are pushed off the ledge; however, as you cross the framerate boundary of 240fps, you gain the ability to re-land immediately on top of the ledge as you begin falling, giving the visual effect of a bounce. With the right inputs and timings, this "bounce" can be looped indefinitely, giving the Light Bowgun the ability to fire at unprecedented rates.
 
 <br>
 
