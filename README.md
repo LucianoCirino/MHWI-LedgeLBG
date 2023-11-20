@@ -367,10 +367,13 @@ For those who wish to utilize multiple ammo types, the LLBG script includes an o
 > - Commands to switch to an ammo type that have no ammo will be ignored by the script. For hotkeys assigned to multiple ammo types, the script will skip over the type that is out of ammo and move on to the next one.
 
 > [!IMPORTANT]
-> - The ammo selection wheel employs a cycling mechanism to mitigate the significant initial delay experienced when navigating through multiple entries in succession. This delay occurs only if the ammo wheel was not already active; the initial action to start traversing the wheel incurs approximately 350ms of latency. However, once traversal has commenced, moving to each subsequent entry requires a mere 17ms. Therefore, to reach any given type of ammo efficiently, the wheel is kept open, allowing for a rapid traversal at a consistent rate of 17ms per entry. The total time to arrive at the desired ammunition type is calculated as *N*×17ms, where *N* is the minimum number of moves required to access the target ammo type within the wheel. For these reasons, please refrain from calling these ammo scripts until the ammo wheel has fully opened and begun cycling.
+> The ammo selection wheel employs a cycling mechanism to mitigate the significant initial delay experienced when navigating through multiple entries in succession. This delay occurs only if the ammo wheel was not already active; the initial action to start traversing the wheel incurs approximately 350ms of latency. However, once traversal has commenced, moving to each subsequent entry requires a mere 17ms. Therefore, to reach any given type of ammo efficiently, the wheel is kept open, allowing for a rapid traversal at a consistent rate of 17ms per entry. The total time to arrive at the desired ammunition type is calculated as *N*×17ms, where *N* is the minimum number of moves required to access the target ammo type within the wheel. For these reasons, please refrain from calling these ammo scripts until the ammo wheel has fully opened and begun cycling.
+
+> [!WARNING]
+> There is a limit to how far ammo types can be from one an another in the ammo wheel for a succesful swaps to occur. You can re-order your ammos through the game's item menu.
 
 ## ⌨️ KbM Controls
-These are the controls the script is using to perform all the actions in the game, and as such must match your ingame keyboard & mouse controls. They are configured by default as my ingame defaults.
+These are the controls the script is using to perform all the actions in the game, and as such must match your ingame keyboard & mouse controls. They are configured by default as my in-game defaults.
 
 > [!NOTE]
 > Don't put capital letters. For example, "W" should be "w".
