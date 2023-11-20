@@ -381,7 +381,7 @@ These are the controls the script is using to perform all the actions in the gam
 
 | # | User Requirements |
 |:-:|:-----------------:|
-| 1 | Script was designed to be used with a PlayStation controller, however, it is probably only required for the Ammo Scripting feature. |
+| 1 | Script was designed to be used with a PlayStation controller, however, it is probably only required for the Ammo Scripting feature (for now). |
 | 2 | Monster Hunter World: Iceborne versions 15.21 or 15.20. |
 | 3 | Installation of the [Better Input Detection](https://www.nexusmods.com/monsterhunterworld/mods/4333) mod by AsteriskAmpersand. |
 | 4 | The necessary hardware to run the game at a minimum of 240fps. |
