@@ -370,7 +370,7 @@ For those who wish to utilize multiple ammo types, the LLBG script includes an o
 > The ammo selection wheel employs a cycling mechanism to mitigate the significant initial delay experienced when navigating through multiple entries in succession. This delay occurs only if the ammo wheel was not already active; the initial action to start traversing the wheel incurs approximately 350ms of latency. However, once traversal has commenced, moving to each subsequent entry requires a mere 17ms. Therefore, to reach any given type of ammo efficiently, the wheel is kept open, allowing for a rapid traversal at a consistent rate of 17ms per entry. The total time to arrive at the desired ammunition type is calculated as *N*×17ms, where *N* is the minimum number of moves required to access the target ammo type within the wheel. For these reasons, please refrain from calling these ammo scripts until the ammo wheel has fully opened and begun cycling.
 
 > [!WARNING]
-> There is a limit to how far away ammo types can be from one an another in the ammo wheel for a succesful swaps to occur. Please re-order your ammos on the ammo wheel to minimize these distances as much as you can or else script will simply fail.
+> There is a limit to how far away ammo types can be from one an another in the ammo wheel for swaps to succesful occur, because of this it is required you re-order your ammos manually to minimize this traversal distances.
 
 ## ⌨️ KbM Controls
 These are the controls the script is using to perform all the actions in the game, and as such must match your ingame keyboard & mouse controls. They are configured by default as my in-game defaults.
