@@ -42,10 +42,10 @@ Depending on your **recoil level** and **shot type**, the timing for how to can 
 
 <br>
 
-## Available Ledge Light Bowguns
+# Available Ledge Light Bowguns
 Below is a hand-picked selection of the most effective Ledge Light Bowguns for the different raw ammo types.
 
-### Accursed Fire
+## Accursed Fire
 
 - A contender for the most powerful Pierce ledge LBG, offering fast bouncing <code>[Pierce Ammo 3]</code> at its highest possible base raw.
 
@@ -83,7 +83,7 @@ Below is a hand-picked selection of the most effective Ledge Light Bowguns for t
 
 ---
 
-### Bazelcore
+## Bazelcore
 
 - A fast bouncing <code>[Pierce Ammo 3]</code> alternative with a huge selection of ammo types to utilize from.
 
@@ -127,7 +127,7 @@ Below is a hand-picked selection of the most effective Ledge Light Bowguns for t
 
 ---
 
-### Fatalis Depths
+## Fatalis Depths
 
 - A formidable <code>[Spread/Pierce Ammo 3]</code> option with unique Rapid-Fire capabilities.
 
@@ -167,7 +167,7 @@ Below is a hand-picked selection of the most effective Ledge Light Bowguns for t
 
 ---
 
-### Royal Surefire Shot
+## Royal Surefire Shot
 
 - A gun with an unparalleled <code>[Normal Ammo 3]</code> magazine size and the unique ability to utilize every cc ammo type in the game.
 
@@ -212,7 +212,7 @@ Below is a hand-picked selection of the most effective Ledge Light Bowguns for t
 
 ---
 
-### Safi's Aquashot
+## Safi's Aquashot
 
 - Although this gun doesn't ledge bounce fast with <code>[Pierce Ammo 3]</code> , its magazine size is nothing to scoff at. 
 
@@ -250,7 +250,7 @@ Below is a hand-picked selection of the most effective Ledge Light Bowguns for t
 
 ---
 
-### Safi's Drakshot
+## Safi's Drakshot
 
 - With it's unmatched <code>[Spread Ammo 3]</code> magazine size, this gun is without a doubt in a class of its own. 
 
@@ -287,7 +287,7 @@ Below is a hand-picked selection of the most effective Ledge Light Bowguns for t
 
 ---
 
-### Ten Thousand Volts
+## Ten Thousand Volts
 
 - The pinnacle of base raw is also the most devastating <code>[Normal Ammo 3]</code> and <code>[Sticky Ammo 3]</code> ledge LBG in the game.  
 
@@ -322,10 +322,13 @@ Below is a hand-picked selection of the most effective Ledge Light Bowguns for t
 
 <br>
 
-## Script Settings
-The below section covers all the tool's settings.
+# Script Settings
 
-### ⚙️ General 
+In this section I cover all the settings available on the LLBG tool's main gui window which can be accessed via the *LLBG.exe* executable.
+
+<img src="https://github.com/LucianoCirino/MHWI-LedgeLBG/blob/main/MHWI_LLBG/gui/gui.png" width="500">
+
+## ⚙️ General 
 |          Setting            | Description |
 |:---------------------------:|:-----------:|
 | <code>LBG_Name</code>       | The name of the LBG you will be using. The script uses this name to pull the correct bounce timings for each ammo type. |
@@ -334,16 +337,16 @@ The below section covers all the tool's settings.
 | <code>FPS_Dip_Reload</code> | If enabled, script drops your framerate when you need to reload in order to stop ledge bouncing and and allow you to fall. This gives the script the ability to go for spare-shots on the last bullet in the magazine. Framerate dipping also gives you the ability to use rapid-fire ammo as your primary ammo by giving it a method of unsticking from the ledge when required to reload. This option is a bit too much on the cheat side due to it controlling something that is not possible by a player during gameplay, but I will leave that moral dilemma up to the user of the tool.  |
 
 >[!NOTE]
-> Enabling <code>FPS_Dip_Reload</code> on fast or medium bounce speed ammos actually makes your last shot ~51ms slower than if you assumed you needed a reload. What this means is that if you fail to spare-shot on the last shot, having this option enabled makes your LLBG reloads slightly slower. Another thing to note about this option is that when your framerate is reset it is not set back to your previous setting, but to the "No Limit" framerate option (300fps).
+> Enabling <code>FPS_Dip_Reload</code> on fast or medium bounce speed ammos actually makes your last shot ~51ms slower than if you assumed you needed a reload. What this means is that if you fail to spare-shot on the last shot, having this option enabled makes your LLBG reloads slightly slower.
 
-### 🕹️ Script Controls
+## 🕹️ Script Controls
 |            Setting         |                  Description                   |
 |:--------------------------:|:----------------------------------------------:|
 | <code>Reload_Script</code> | The hotkey bind to reload the LLBG script.     |
 | <code>Stop_Script</code>   | The hotkey bind to terminate the LLBG script.  |
 | <code>Exit_LLGB</code>     | The hotkey bind to exit the current LLBG loop. Currently hardcoded to the controller's aim button (Left Trigger/Joy7).|
 
-### 📜 Ammo Scripting
+## 📜 Ammo Scripting
 For those who wish to utilize multiple ammo types, the LLBG script includes an optional sophisticated ammo control tool that allows you to bind PS4 buttons (hotkeys) to a set of actions to perform.
 
 |             Setting               |  Description  |
@@ -352,7 +355,7 @@ For those who wish to utilize multiple ammo types, the LLBG script includes an o
 | <code>Ammo_Sync_Hotkey</code>     | The hotkey bind to begin an Ammo Sync. An Ammo Sync is required to be done only once on your current ammo bag for the script to "know" the fastest path to travel to reach other ammo types. It involves the script scrolling through all your ammo types and storing their positions. |
 | <code>Auto_Ammo_Sync</code>       | If enabled, the script will automatically perform an Ammo Sync after certain events, such as when the script is first loaded or when you are loading into a quest. |
 
-#### Table Options:
+### Table Options:
 | Ammo Name | Queue Hotkey | Start Condition | Shot Limit | Finish Action |
 |:---------:|:------------:|:---------------:|:----------:|:-------------:|
 | The name of the ammo type to swap to. | The assigned hotkey to begin the scripted action.| The condition the Primary Ammo must be in order to begin the scripted action. | The number of shots to perform before executing the Finish Action.| The action to take when complete. "Return" returns you to the primary ammo type, "Next" moves you to the next index entry in the ammo script table. | 
@@ -366,7 +369,7 @@ For those who wish to utilize multiple ammo types, the LLBG script includes an o
 > [!IMPORTANT]
 > - The ammo selection wheel employs a cycling mechanism to mitigate the significant initial delay experienced when navigating through multiple entries in succession. This delay occurs only if the ammo wheel was not already active; the initial action to start traversing the wheel incurs approximately 350ms of latency. However, once traversal has commenced, moving to each subsequent entry requires a mere 17ms. Therefore, to reach any given type of ammo efficiently, the wheel is kept open, allowing for a rapid traversal at a consistent rate of 17ms per entry. The total time to arrive at the desired ammunition type is calculated as *N*×17ms, where *N* is the minimum number of moves required to access the target ammo type within the wheel. For these reasons, please refrain from calling these ammo scripts until the ammo wheel has fully opened and begun cycling.
 
-### ⌨️ KbM Controls
+## ⌨️ KbM Controls
 These are the controls the script is using to perform all the actions in the game, and as such must match your ingame keyboard & mouse controls. They are configured by default as my ingame defaults.
 
 > [!NOTE]
@@ -391,9 +394,7 @@ These are the controls the script is using to perform all the actions in the gam
 To download the Ledge Light Bowgun (LLBG) Exploit Tool, simply click *[here](https://github.com/LucianoCirino/MHWI-LedgeLBG/releases/download/v1.0/MHWI_LedgeLBG.zip)*.
 
 # How to Run
-To open the GUI, simply run the "LLBG.exe". You can run and stop the script from this window.
-
-<img src="https://github.com/LucianoCirino/MHWI-LedgeLBG/blob/main/MHWI_LLBG/gui/gui.png" width="500">
+You can run and stop the script from the gui window. Setting changes are not applied until you click *Save*.
 
 > [!WARNING]
 > Closing the GUI window stops the AutoHotkey script.
