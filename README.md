@@ -5,6 +5,12 @@ This tool was designed to be used with the Light Bowgun to perform the latest it
 ### Premise 
 In Monster Hunter World: Iceborne, the Light Bowgun has the ability to cancel high recoil shots with a ledge by interrupting the recoil animation with a fall. Normally upon falling you are pushed off the ledge, however, as you cross the framerate boundary of 240fps, you gain the special ability to re-land immediately from this fall and "bounce" away from the ledge. With the right inputs and timings, this bounce can be looped indefinitely, allowing you to fire your Light Bowgun at unprecedented rates.
 
+<p align="center">
+  <img src="https://github.com/LucianoCirino/Media/blob/main/MHWI-LedgeLBG/LBGs/60fps_ledge_LBG.gif" width="250" />
+  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+  <img src="https://github.com/LucianoCirino/Media/blob/main/MHWI-LedgeLBG/LBGs/240fps_ledge_LBG1.gif" width="250"/>
+</p>
+
 <br>
 
 ## Recoil, Shot Types, and Ledge Bounce Behaviors
