@@ -67,7 +67,7 @@ Below is a hand-picked selection of the most effective Ledge Light Bowguns for t
 </tr>
 <tr style="vertical-align:top;">
 <td colspan="2">
-<details><summary>Ammo Bounce Map</summary>
+<details><summary><center><strong>View Ammo Bounce Table (6)</strong></center></summary>
 
 |     Ammo Type      | Magazine Size | Bounce Speed |
 |:------------------:|:-------------:|:------------:|
@@ -106,7 +106,7 @@ Below is a hand-picked selection of the most effective Ledge Light Bowguns for t
 </tr>
 <tr style="vertical-align:top;">
 <td colspan="2">
-<details><summary>Ammo Bounce Map</summary>
+<details><summary>Ammo Bounce Map (13)</summary>
   
 | Ammo Type          | Magazine Size | Bounce Speed |
 |:------------------:|:-------------:|:------------:|
@@ -152,7 +152,7 @@ Below is a hand-picked selection of the most effective Ledge Light Bowguns for t
 </tr>
 <tr style="vertical-align:top;">
 <td colspan="2">
-<details><summary>Ammo Bounce Map</summary>
+<details><summary>Ammo Bounce Map (9)</summary>
   
 | Ammo Type          | Magazine Size | Bounce Speed |
 |:------------------:|:-------------:|:------------:|
@@ -194,7 +194,7 @@ Below is a hand-picked selection of the most effective Ledge Light Bowguns for t
 </tr>
 <tr style="vertical-align:top;">
 <td colspan="2">
-<details><summary>Ammo Bounce Map</summary>
+<details><summary>Ammo Bounce Map (14)</summary>
 
 | Ammo Type          | Magazine Size | Bounce Speed |
 |:------------------:|:-------------:|:------------:|
@@ -243,7 +243,7 @@ Below is a hand-picked selection of the most effective Ledge Light Bowguns for t
 </tr>
 <tr style="vertical-align:top;">
 <td colspan="2">
-<details><summary>Ammo Bounce Map</summary>
+<details><summary>Ammo Bounce Map (5)</summary>
   
 | Ammo Type          | Magazine Size | Bounce Speed |
 |:------------------:|:-------------:|:------------:|
@@ -283,7 +283,7 @@ Below is a hand-picked selection of the most effective Ledge Light Bowguns for t
 </tr>
 <tr style="vertical-align:top;">
 <td colspan="2">
-<details><summary>Ammo Bounce Map</summary>
+<details><summary>Ammo Bounce Map (4)</summary>
   
 | Ammo Type          | Magazine Size | Bounce Speed |
 |:------------------:|:-------------:|:------------:|
@@ -320,7 +320,7 @@ Below is a hand-picked selection of the most effective Ledge Light Bowguns for t
 </tr>
 <tr style="vertical-align:top;">
 <td colspan="2">
-<details><summary>Ammo Bounce Map</summary>
+<details><summary>Ammo Bounce Map (4)</summary>
 
 | Ammo Type          | Magazine Size | Bounce Speed |
 |:------------------:|:-------------:|:------------:|
