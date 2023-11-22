@@ -1,6 +1,6 @@
 # Ledge Light Bowgun (LLBG) Exploit Tool
 
-![Ledge Light Bowgun (LLBG) Exploit Tool Logo](https://github.com/LucianoCirino/MHWI-LedgeLBG/assets/112517630/52e2c1b0-509c-4e13-aa0c-7af699271238)
+![Ledge Light Bowgun (LLBG) Exploit Tool](https://github.com/LucianoCirino/MHWI-LedgeLBG/assets/112517630/178f3e33-e147-40eb-a6d5-2455a86c96d4)
 
 [LLBG_.webm](https://github.com/LucianoCirino/MHWI-LedgeLBG/assets/112517630/6eb53a33-dde9-4345-8e35-aa9b659285e3)
 
