@@ -83,6 +83,8 @@ Below is a hand-picked selection of the most effective Ledge Light Bowguns for t
 </tr>
 </table>
 
+---
+
 ### Bazelcore
 
 - A fast bouncing <code>[Pierce Ammo 3]</code> alternative with a huge selection of ammo types to utilize from.
@@ -127,6 +129,8 @@ Below is a hand-picked selection of the most effective Ledge Light Bowguns for t
 </tr>
 </table>
 
+---
+
 ### Fatalis Depths
 
 - A formidable <code>[Spread/Pierce Ammo 3]</code> option with unique Rapid-Fire capabilities.
@@ -166,6 +170,8 @@ Below is a hand-picked selection of the most effective Ledge Light Bowguns for t
 </td>
 </tr>
 </table>
+
+---
 
 ### Royal Surefire Shot
 
@@ -252,6 +258,8 @@ Below is a hand-picked selection of the most effective Ledge Light Bowguns for t
 </tr>
 </table>
 
+---
+
 ### Safi's Drakshot
 
 - With it's unmatched <code>[Spread Ammo 3]</code> magazine size, this gun is without a doubt in a class of its own. 
@@ -289,6 +297,8 @@ Below is a hand-picked selection of the most effective Ledge Light Bowguns for t
 </tr>
 </table>
 
+---
+
 ### Ten Thousand Volts
 
 - The pinnacle of base raw is also the most devastating <code>[Normal Ammo 3]</code> and <code>[Sticky Ammo 3]</code> ledge LBG in the game.  
@@ -323,6 +333,8 @@ Below is a hand-picked selection of the most effective Ledge Light Bowguns for t
 </td>
 </tr>
 </table>
+
+---
 
 <br>
 
