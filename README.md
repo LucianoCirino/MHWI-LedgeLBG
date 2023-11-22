@@ -394,10 +394,10 @@ These are the controls the script is using to perform all the actions in the gam
 | 5 | Must be on a Windows Operating System (AutoHotkey requirement). |
 
 # Download
-To download the Ledge Light Bowgun (LLBG) Exploit Tool, simply click *[here](https://github.com/LucianoCirino/MHWI-LedgeLBG/releases/download/v1.0/MHWI_LedgeLBG.zip)*.
+To download the Ledge Light Bowgun (LLBG) Exploit Tool, simply *[click here](https://github.com/LucianoCirino/MHWI-LedgeLBG/releases/download/v1.0/MHWI-LedgeLBG.zip)*. <br>
 
 # How to Run
-You can run and stop the script from the gui window. Setting changes are not applied until you click *Save*.
+You can run and stop the script from the gui window (LLBG.exe). Setting changes are not applied until you click *Save*.
 
 > [!WARNING]
 > Closing the GUI window stops the AutoHotkey script.
