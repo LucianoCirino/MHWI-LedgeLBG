@@ -45,7 +45,7 @@ Depending on your **recoil level** and **shot type**, the timing for how to can 
 # Available Ledge Light Bowguns
 Below is a hand-picked selection of the most effective Ledge Light Bowguns for the different raw ammo types.
 
-## Accursed Fire
+### Accursed Fire
 
 - A contender for the most powerful Pierce ledge LBG, offering fast bouncing <code>[Pierce Ammo 3]</code> at its highest possible base raw.
 
@@ -67,6 +67,7 @@ Below is a hand-picked selection of the most effective Ledge Light Bowguns for t
 </tr>
 <tr style="vertical-align:top;">
 <td colspan="2">
+<details><summary>Ammo Bounce Map</summary>
 
 |     Ammo Type      | Magazine Size | Bounce Speed |
 |:------------------:|:-------------:|:------------:|
@@ -77,13 +78,12 @@ Below is a hand-picked selection of the most effective Ledge Light Bowguns for t
 | Sticky Ammo 3      |       3       |     Fast     |
 | Tranq Ammo         |       3       |    Medium    |
 
+</details>
 </td>
 </tr>
 </table>
 
----
-
-## Bazelcore
+### Bazelcore
 
 - A fast bouncing <code>[Pierce Ammo 3]</code> alternative with a huge selection of ammo types to utilize from.
 
@@ -104,7 +104,8 @@ Below is a hand-picked selection of the most effective Ledge Light Bowguns for t
 </tr>
 <tr style="vertical-align:top;">
 <td colspan="2">
-
+<details><summary>Ammo Bounce Map</summary>
+  
 | Ammo Type          | Magazine Size | Bounce Speed |
 |:------------------:|:-------------:|:------------:|
 | Normal Ammo 3      |       3       |     Fast     |
@@ -121,13 +122,12 @@ Below is a hand-picked selection of the most effective Ledge Light Bowguns for t
 | Thunder Ammo       |       5       |    Medium    |
 | Tranq Ammo         |       3       |    Medium    |
 
+</details>
 </td>
 </tr>
 </table>
 
----
-
-## Fatalis Depths
+### Fatalis Depths
 
 - A formidable <code>[Spread/Pierce Ammo 3]</code> option with unique Rapid-Fire capabilities.
 
@@ -148,7 +148,8 @@ Below is a hand-picked selection of the most effective Ledge Light Bowguns for t
 </tr>
 <tr style="vertical-align:top;">
 <td colspan="2">
-
+<details><summary>Ammo Bounce Map</summary>
+  
 | Ammo Type          | Magazine Size | Bounce Speed |
 |:------------------:|:-------------:|:------------:|
 | Spread Ammo 3      |       4       |     Fast     |
@@ -161,13 +162,12 @@ Below is a hand-picked selection of the most effective Ledge Light Bowguns for t
 | Pierce Ammo 2 (RF) |       5       |     Slow     |
 | Spread Ammo 2 (RF) |       5       |     Slow     |
 
+</details>
 </td>
 </tr>
 </table>
 
----
-
-## Royal Surefire Shot
+### Royal Surefire Shot
 
 - A gun with an unparalleled <code>[Normal Ammo 3]</code> magazine size and the unique ability to utilize every cc ammo type in the game.
 
@@ -188,6 +188,7 @@ Below is a hand-picked selection of the most effective Ledge Light Bowguns for t
 </tr>
 <tr style="vertical-align:top;">
 <td colspan="2">
+<details><summary>Ammo Bounce Map</summary>
 
 | Ammo Type          | Magazine Size | Bounce Speed |
 |:------------------:|:-------------:|:------------:|
@@ -206,13 +207,14 @@ Below is a hand-picked selection of the most effective Ledge Light Bowguns for t
 | Armor Ammo         |       3       |    Medium    |
 | Tranq Ammo         |       3       |    Medium    |
 
+</details>
 </td>
 </tr>
 </table>
 
 ---
 
-## Safi's Aquashot
+### Safi's Aquashot
 
 - Although this gun doesn't ledge bounce fast with <code>[Pierce Ammo 3]</code> , its magazine size is nothing to scoff at. 
 
@@ -235,7 +237,8 @@ Below is a hand-picked selection of the most effective Ledge Light Bowguns for t
 </tr>
 <tr style="vertical-align:top;">
 <td colspan="2">
-
+<details><summary>Ammo Bounce Map</summary>
+  
 | Ammo Type          | Magazine Size | Bounce Speed |
 |:------------------:|:-------------:|:------------:|
 | Sticky Ammo 2      |       2       |     Fast     |
@@ -244,13 +247,12 @@ Below is a hand-picked selection of the most effective Ledge Light Bowguns for t
 | Recover Ammo 2     |       2       |    Medium    |
 | Tranq Ammo         |       3       |    Medium    |
 
+</details>
 </td>
 </tr>
 </table>
 
----
-
-## Safi's Drakshot
+### Safi's Drakshot
 
 - With it's unmatched <code>[Spread Ammo 3]</code> magazine size, this gun is without a doubt in a class of its own. 
 
@@ -273,7 +275,8 @@ Below is a hand-picked selection of the most effective Ledge Light Bowguns for t
 </tr>
 <tr style="vertical-align:top;">
 <td colspan="2">
-
+<details><summary>Ammo Bounce Map</summary>
+  
 | Ammo Type          | Magazine Size | Bounce Speed |
 |:------------------:|:-------------:|:------------:|
 | Spread Ammo 3      |       5       |     Fast     |
@@ -281,13 +284,12 @@ Below is a hand-picked selection of the most effective Ledge Light Bowguns for t
 | Tranq Ammo         |       3       |    Medium    |
 | Normal Ammo 2 (RF) |       4       |     Slow     |
 
+</details>
 </td>
 </tr>
 </table>
 
----
-
-## Ten Thousand Volts
+### Ten Thousand Volts
 
 - The pinnacle of base raw is also the most devastating <code>[Normal Ammo 3]</code> and <code>[Sticky Ammo 3]</code> ledge LBG in the game.  
 
@@ -308,6 +310,7 @@ Below is a hand-picked selection of the most effective Ledge Light Bowguns for t
 </tr>
 <tr style="vertical-align:top;">
 <td colspan="2">
+<details><summary>Ammo Bounce Map</summary>
 
 | Ammo Type          | Magazine Size | Bounce Speed |
 |:------------------:|:-------------:|:------------:|
@@ -316,6 +319,7 @@ Below is a hand-picked selection of the most effective Ledge Light Bowguns for t
 | Sticky Ammo 3      |       3       |     Fast     |
 | Tranq Ammo         |       3       |    Medium    |
 
+</details>
 </td>
 </tr>
 </table>
